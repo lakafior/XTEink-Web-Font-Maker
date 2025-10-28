@@ -1,4 +1,4 @@
-# XTEink Web Font Toolkit
+# XTEink Web Font Maker
 
 A web-based tool to convert standard font files (`.ttf`, `.otf`) into the 1-bit, fixed-grid `.bin` format used by XTEink e-reader devices.
 
