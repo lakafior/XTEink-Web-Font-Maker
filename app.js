@@ -35,29 +35,90 @@ function getFreetypeLoadFlags() {
 }
 
 const optical_offsets = {
-    // Shift Left (Strong)
-    "l": -0.05, "i": -0.05, "1": -0.05,
-    "!": -0.06, "|": -0.06,
-    "(": -0.05, ")": -0.05, "[": -0.05, "]": -0.05, "{": -0.05, "}": -0.05,
-    
-    // Shift Left (Light) — slightly compact shapes
-    "a": -0.02, "o": -0.02, "q": -0.02, "g": -0.02, "Q": -0.02, "O": -0.02,
+// ============================================
+// OKRĄGŁE ZNAKI - silne przesunięcie w lewo
+// ============================================
+// Okrągłe litery mają "optyczną masę" w środku, więc geometryczne
+// wycentrowanie sprawia, że wydają się za daleko. Przesuwamy je w lewo.
+"O": -0.10, "Q": -0.10, "C": -0.09, "G": -0.09,
+"o": -0.10, "q": -0.10, "c": -0.09, "g": -0.09,
+"0": -0.10, "6": -0.08, "8": -0.08, "9": -0.08,
 
-    // Shift Left (Medium)
-    "t": -0.04, "f": -0.04, "j": -0.04, "T": -0.03, "F": -0.03, "J": -0.03,
+// Półokrągłe - średnie przesunięcie w lewo
+"D": -0.06, "d": -0.06,
+"S": -0.05, "s": -0.05,
+"3": -0.06, "5": -0.05, "2": -0.04,
 
-    // Shift Right (Medium)
-    "n": 0.03, "m": 0.03, "h": 0.03, "u": 0.03, "p": 0.03, "b": 0.03, "d": 0.03,
-    "N": 0.025, "M": 0.025, "H": 0.025, "U": 0.025, "P": 0.025, "B": 0.025, "D": 0.025, "R": 0.03,
+// ============================================
+// ZNAKI Z "DACHEM" - przesunięcie w prawo
+// ============================================
+// Litery z szerokim górem i wąskim dołem tworzą przestrzeń optyczną
+// pod sobą. Przesunięcie w prawo pozwala następnej literze wypełnić tę lukę.
+"T": 0.07, "Y": 0.06, "V": 0.06, "W": 0.05, "A": 0.04,
+"y": 0.05, "v": 0.05, "w": 0.04,
+"7": 0.06,
 
-    // Shift Right (Slight)
-    "r": 0.02, "k": 0.02, "y": 0.02, "K": 0.015, "Y": 0.015,
-    "z": 0.02, "Z": 0.02, "s": 0.02, "S": 0.02,
-    "e": 0.02, "E": 0.02, "c": 0.02, "C": 0.02, "G": 0.02,
+// ============================================
+// WĄSKIE ZNAKI - neutralne lub minimalne
+// ============================================
+// Wąskie znaki wyglądają najlepiej gdy są wycentrowane.
+// Problem z "ill" nie jest do rozwiązania przez offset - to kwestia
+// szerokości boxa, której nie możemy zmienić.
+"I": 0, "l": 0, "i": 0, "1": 0, "!": 0, "|": 0,
+"t": 0, "f": 0, "j": 0,
+"r": 0,  // 'r' jest wąskie z prawej strony, ale lepiej wycentrowane
 
-    // Neutral (explicitly 0 for safety)
-    "A": 0, "V": 0, "W": 0, "X": 0, "x": 0, "O": 0, "o": 0
+// ============================================
+// ZNAKI Z OTWARTĄ PRAWĄ STRONĄ
+// ============================================
+// Te znaki mają dużo "powietrza" z prawej, więc lekko w prawo
+"J": 0.05,
+"a": 0.02, "e": 0.02, "u": 0.02,
+
+// ============================================
+// NAWIASY I ZNAKI INTERPUNKCYJNE
+// ============================================
+// Otwierające - silnie w lewo (wtulają się)
+"(": -0.12, "[": -0.12, "{": -0.12,
+
+// Zamykające - silnie w prawo (wypychają)
+")": 0.12, "]": 0.12, "}": 0.12,
+
+// Cudzysłowy i apostrofy - asymetryczne
+// Używamy unikalnych znaków typograficznych jako kluczy
+'‘': -0.08, // Lewy pojedynczy cudzysłów
+'’': 0.08,  // Prawy pojedynczy cudzysłów (i apostrof)
+'‚': -0.08, // Pojedynczy cudzysłów dolny
+'“': -0.08, // Lewy podwójny cudzysłów
+'”': 0.08,  // Prawy podwójny cudzysłów
+'„': -0.08, // Podwójny cudzysłów dolny
+"'": 0,     // Neutralny (prosty) apostrof - często używany jako prawy, więc może być 0.08, ale 0 jest bezpieczniejsze
+'"': 0,     // Neutralny (prosty) cudzysłów - wycentrowany
+
+// Małe znaki interpunkcyjne - lekko w lewo dla lepszego rytmu
+".": -0.02, ",": -0.02, ":": -0.02, ";": -0.02,
+
+// ============================================
+// ZNAKI SYMETRYCZNE - neutralne (0)
+// ============================================
+// Te litery mają podobną "masę optyczną" po obu stronach
+"B": 0, "E": 0, "F": 0, "H": 0, "K": 0, "L": 0,
+"M": 0, "N": 0, "P": 0, "R": 0, "U": 0, "X": 0, "Z": 0,
+"b": 0, "h": 0, "k": 0, "m": 0, "n": 0, "p": 0,
+"x": 0, "z": 0,
+"4": 0,
+
+// Znaki matematyczne i specjalne - wycentrowane
+"-": 0, "+": 0, "=": 0, "*": 0, "/": 0, "\\": 0,
+"#": 0, "&": 0, "%": 0, "$": 0, "@": 0,
+"?": 0, "^": 0, "_": 0, "~": 0, "`": 0,
+"<": 0, ">": 0,
 };
+
+// Funkcja pomocnicza do bezpiecznego pobierania offsetu
+function getOpticalOffset(char) {
+return optical_offsets[char] ?? 0;
+}
 
 const narrowVerticals = new Set(['l', 'i', 't', 'f', 'j', 'I', 'J', 'T', 'F', '1', '!', '|']);
 
