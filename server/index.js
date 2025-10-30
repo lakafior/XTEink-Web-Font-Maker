@@ -5,7 +5,7 @@ const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
-app.use(cors({ origin: true })); // allow requests from any origin (adjust to your domain in production)
+app.use(cors({ origin: 'https://xteink.lakafior.com' }));
 app.use(bodyParser.json({ limit: '20mb' }));
 
 // Basic rate limiting to prevent abuse
@@ -88,5 +88,6 @@ app.post('/submit', async (req, res) => {
     }
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log('Server listening on', port));
+const port = process.env.PORT || 4000;
+const host = process.env.HOST || '127.0.0.1';
+app.listen(port, host, () => console.log('Server listening on', host + ':' + port));
