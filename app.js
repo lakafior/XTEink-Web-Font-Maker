@@ -544,11 +544,11 @@ async function saveToServer() {
 
     status.textContent = 'Uploading to server...';
     try {
-        const repoFull = prompt('Enter target repository owner/repo (e.g. lakafior/XTEink-Web-Font-Toolkit):', 'lakafior/XTEink-Web-Font-Toolkit');
-        if (!repoFull) { status.textContent = 'Cancelled.'; return; }
+        // Auto-target repo (no prompt)
+        const repoFull = 'lakafior/XTEink-Web-Font-Maker';
         const [owner, repo] = repoFull.split('/');
 
-    const resp = await fetch(`${API_BASE}/submit`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ owner, repo, slug, files, family, style, preview_text }) });
+        const resp = await fetch(`${API_BASE}/submit`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ owner, repo, slug, files, family, style, preview_text: previewText }) });
         const j = await resp.json();
         if (!resp.ok) throw new Error(j.error || JSON.stringify(j));
         status.textContent = '';
