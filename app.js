@@ -7,6 +7,8 @@ let activeFont = null; // The currently active font face
 // --- FreeType Initialization ---
 try {
     ft = await FreeTypeInit();
+    // update diagnostics if present
+    try { const di = document.getElementById('diagnostics'); if (di) di.querySelector('.ft').textContent = 'Loaded'; } catch(e){}
 } catch (err) {
     console.error('Failed to initialize FreeType:', err);
     alert('Critical error: Could not load FreeType library. Check the browser console.');
@@ -343,6 +345,26 @@ async function handleFontFileChange(e) {
         
         document.getElementById('fontInfo').innerText = `Loaded font: ${activeFont.family_name}, Style: ${activeFont.style_name}`;
 
+        // create or update diagnostics box
+        try {
+            let di = document.getElementById('diagnostics');
+            if (!di) {
+                di = document.createElement('div');
+                di.id = 'diagnostics';
+                di.style.marginTop = '8px';
+                di.style.fontSize = '0.9em';
+                di.style.color = '#444';
+                di.innerHTML = `<div><strong>Diagnostics</strong></div>
+                    <div>FreeType: <span class="ft">unknown</span></div>
+                    <div>Active font: <span class="font">none</span></div>
+                    <div>Preview length: <span class="plen">0</span></div>
+                    <div>Last render: <span class="last">never</span></div>`;
+                document.getElementById('fontInfo').appendChild(di);
+            }
+            di.querySelector('.font').textContent = `${activeFont.family_name} — ${activeFont.style_name}`;
+            const ftEl = di.querySelector('.ft'); if (ftEl && ft) ftEl.textContent = 'Loaded';
+        } catch (e) { console.warn('diag create failed', e); }
+
         updateControlStates();
         renderGlyphToCanvas('A');
         renderPreviewText();
@@ -530,6 +552,15 @@ async function saveToServer() {
         tctx.fillStyle = '#fff';
         tctx.fillRect(0, 0, tw, th);
         tctx.drawImage(canvas, 0, 0, w, h, 0, 0, tw, th);
+
+        // update diagnostics preview length and last render
+        try {
+            const di = document.getElementById('diagnostics');
+            if (di) {
+                di.querySelector('.plen').textContent = previewText.length;
+                di.querySelector('.last').textContent = new Date().toLocaleTimeString();
+            }
+        } catch (e) { /* ignore */ }
         return tmp;
     }
 
