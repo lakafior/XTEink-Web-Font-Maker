@@ -29,6 +29,15 @@
       <div class="loading">Loading gallery…</div>
     </div>
   </div>
+  <!-- Modal for preview -->
+  <div id="previewModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="modalClose" class="modal-close" aria-label="Close">×</button>
+      <h2 id="modalTitle">Preview</h2>
+      <div id="modalBody"></div>
+    </div>
+  </div>
   <script type="module" src="gallery.js"></script>
 </body>
 </html>

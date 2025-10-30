@@ -113,6 +113,9 @@ function createCard(metadata, previewUrl, binUrl, slug) {
   const img = el('img', { class: 'preview-img', alt: metadata.family || slug });
   if (previewUrl) img.src = previewUrl;
   else img.src = 'icons/favicon-32x32.png';
+  // make thumbnail clickable to open modal
+  img.style.cursor = 'pointer';
+  img.addEventListener('click', () => openModal({ metadata, previewUrl, binUrl, slug }));
   card.appendChild(img);
 
   const meta = el('div', { class: 'meta' });
@@ -120,6 +123,8 @@ function createCard(metadata, previewUrl, binUrl, slug) {
   if (metadata.preview_text) meta.appendChild(el('div', { text: `Preview: "${metadata.preview_text}"` }));
   if (metadata.submitter && metadata.submitter.name) meta.appendChild(el('div', { text: `Submitted by: ${metadata.submitter.name}` }));
   if (metadata.timestamp) meta.appendChild(el('div', { text: `Date: ${new Date(metadata.timestamp).toLocaleString()}` }));
+  // show glyph size if available
+  if (metadata.width && metadata.height) meta.appendChild(el('div', { class: 'size', text: `Glyph size: ${metadata.width}×${metadata.height}` }));
   card.appendChild(meta);
 
   const controls = el('div', { class: 'controls' });
@@ -143,3 +148,42 @@ loadGallery().catch(err => {
   root.appendChild(el('div', { class: 'loading', text: 'Unexpected error: ' + err.message }));
   console.error(err);
 });
+
+// Modal handling (requires modal elements in gallery.html)
+function openModal({ metadata, previewUrl, binUrl, slug }) {
+  const modal = document.getElementById('previewModal');
+  const modalBody = document.getElementById('modalBody');
+  const title = document.getElementById('modalTitle');
+  modal.setAttribute('aria-hidden', 'false');
+  modalBody.innerHTML = '';
+  title.textContent = `${metadata.family || slug} — ${metadata.style || ''}`;
+  if (previewUrl) {
+    const img = document.createElement('img');
+    img.src = previewUrl;
+    modalBody.appendChild(img);
+  }
+  const info = el('div', { class: 'meta' });
+  if (metadata.preview_text) info.appendChild(el('div', { text: `Preview: "${metadata.preview_text}"` }));
+  if (metadata.submitter && metadata.submitter.name) info.appendChild(el('div', { text: `Submitted by: ${metadata.submitter.name}` }));
+  if (metadata.timestamp) info.appendChild(el('div', { text: `Date: ${new Date(metadata.timestamp).toLocaleString()}` }));
+  if (metadata.width && metadata.height) info.appendChild(el('div', { text: `Glyph size: ${metadata.width}×${metadata.height}` }));
+  modalBody.appendChild(info);
+  const controls = el('div', { class: 'controls' });
+  if (binUrl) controls.appendChild(el('a', { href: binUrl, text: 'Download .bin' }));
+  controls.appendChild(el('a', { href: `https://github.com/${OWNER}/${REPO}/tree/main/gallery/${slug}`, text: 'View on GitHub', class: 'secondary' }));
+  modalBody.appendChild(controls);
+
+  const modalClose = document.getElementById('modalClose');
+  const modalBackdrop = document.getElementById('modalBackdrop');
+  function closeModal() {
+    modal.setAttribute('aria-hidden', 'true');
+    modalBody.innerHTML = '';
+    modalClose.removeEventListener('click', closeModal);
+    modalBackdrop.removeEventListener('click', closeModal);
+    window.removeEventListener('keydown', onKey);
+  }
+  function onKey(e) { if (e.key === 'Escape') closeModal(); }
+  modalClose.addEventListener('click', closeModal);
+  modalBackdrop.addEventListener('click', closeModal);
+  window.addEventListener('keydown', onKey);
+}

@@ -186,6 +186,16 @@ canvas {
     align-items: flex-start;
 }
 
+/* Gallery modal */
+.modal { display: none; position: fixed; inset: 0; z-index: 1200; }
+.modal[aria-hidden="false"] { display: block; }
+.modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.45); }
+.modal-content { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; max-width: 900px; width: calc(100% - 40px); border-radius: 8px; padding: 18px; box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+.modal-close { position: absolute; right: 10px; top: 8px; border: none; background: transparent; font-size: 24px; cursor: pointer; }
+.modal img { max-width: 100%; display:block; margin: 6px 0; }
+
+.card .meta .size { color: var(--secondary-color); font-size: 0.9em; margin-top:6px; }
+
 .text-preview-container {
     flex: 1;
     min-width: 200px;
