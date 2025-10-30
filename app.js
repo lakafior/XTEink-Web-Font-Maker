@@ -544,16 +544,34 @@ async function saveToServer() {
 
     status.textContent = 'Uploading to server...';
     try {
+        // Prepare an AbortController so the request doesn't hang indefinitely
+        const controller = new AbortController();
+        const timeoutMs = 30000; // 30s
+        const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+        // Debug: log approximate payload sizes
+        try {
+            const metaSize = files[`${folder}/metadata.json`].length;
+            const previewSize = files[`${folder}/preview.png`].length;
+            const binSize = files[`${folder}/font_${width}x${height}.bin`].length;
+            console.log('Upload payload sizes (base64 chars):', { metaSize, previewSize, binSize });
+        } catch (e) { console.warn('Failed to compute payload sizes', e); }
+
         // Auto-target repo (no prompt)
         const repoFull = 'lakafior/XTEink-Web-Font-Maker';
         const [owner, repo] = repoFull.split('/');
-
-        const resp = await fetch(`${API_BASE}/submit`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ owner, repo, slug, files, family, style, preview_text: previewText }) });
+        const resp = await fetch(`${API_BASE}/submit`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ owner, repo, slug, files, family, style, preview_text: previewText }), signal: controller.signal });
+        clearTimeout(timeoutId);
         const j = await resp.json();
         if (!resp.ok) throw new Error(j.error || JSON.stringify(j));
         status.textContent = '';
         alert('PR created: ' + j.pr);
     } catch (err) {
+        if (err.name === 'AbortError') {
+            console.error('Upload timed out after 30s');
+            status.textContent = 'Error: upload timed out (no response from server). Check tunnel / server.';
+            return;
+        }
         console.error(err);
         status.textContent = 'Error: ' + (err && err.message ? err.message : err);
     }
