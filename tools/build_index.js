@@ -48,7 +48,9 @@ for (const slug of entries) {
     preview: preview,
     bin: bin,
     submitter: meta.submitter || {},
-    timestamp: meta.timestamp || null
+    timestamp: meta.timestamp || null,
+    width: meta.width || null,
+    height: meta.height || null
   });
 }
 

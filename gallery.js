@@ -111,11 +111,11 @@ async function loadGallery() {
 function createCard(metadata, previewUrl, binUrl, slug) {
   const card = el('div', { class: 'card' });
   const img = el('img', { class: 'preview-img', alt: metadata.family || slug });
-  if (previewUrl) img.src = previewUrl;
+  if (previewUrl) { img.src = previewUrl; img.loading = 'lazy'; }
   else img.src = 'icons/favicon-32x32.png';
   // make thumbnail clickable to open modal
   img.style.cursor = 'pointer';
-  img.addEventListener('click', () => openModal({ metadata, previewUrl, binUrl, slug }));
+  img.addEventListener('click', () => openModal({ metadata, thumbUrl: previewUrl, previewUrl: metadata.preview || null, binUrl, slug }));
   card.appendChild(img);
 
   const meta = el('div', { class: 'meta' });
@@ -150,16 +150,18 @@ loadGallery().catch(err => {
 });
 
 // Modal handling (requires modal elements in gallery.html)
-function openModal({ metadata, previewUrl, binUrl, slug }) {
+function openModal({ metadata, thumbUrl, previewUrl, binUrl, slug }) {
   const modal = document.getElementById('previewModal');
   const modalBody = document.getElementById('modalBody');
   const title = document.getElementById('modalTitle');
   modal.setAttribute('aria-hidden', 'false');
   modalBody.innerHTML = '';
   title.textContent = `${metadata.family || slug} — ${metadata.style || ''}`;
-  if (previewUrl) {
+  // Prefer full preview image if available, otherwise use thumb
+  const showUrl = previewUrl || thumbUrl;
+  if (showUrl) {
     const img = document.createElement('img');
-    img.src = previewUrl;
+    img.src = showUrl;
     modalBody.appendChild(img);
   }
   const info = el('div', { class: 'meta' });

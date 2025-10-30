@@ -189,10 +189,12 @@ canvas {
 /* Gallery modal */
 .modal { display: none; position: fixed; inset: 0; z-index: 1200; }
 .modal[aria-hidden="false"] { display: block; }
-.modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.45); }
-.modal-content { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; max-width: 900px; width: calc(100% - 40px); border-radius: 8px; padding: 18px; box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
-.modal-close { position: absolute; right: 10px; top: 8px; border: none; background: transparent; font-size: 24px; cursor: pointer; }
-.modal img { max-width: 100%; display:block; margin: 6px 0; }
+.modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.6); }
+.modal-content { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; max-width: 960px; width: calc(100% - 40px); border-radius: 10px; padding: 14px 18px 18px; box-shadow: 0 12px 48px rgba(0,0,0,0.35); max-height: 90vh; overflow: auto; }
+.modal-close { position: absolute; right: 12px; top: 10px; border: none; background: transparent; font-size: 26px; cursor: pointer; }
+.modal img { max-width: 100%; display:block; margin: 8px 0; }
+.modal .meta { margin-top: 6px; }
+.modal .controls { margin-top: 12px; display:flex; gap:8px; }
 
 .card .meta .size { color: var(--secondary-color); font-size: 0.9em; margin-top:6px; }
 
