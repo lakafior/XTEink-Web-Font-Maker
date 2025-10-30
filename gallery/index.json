@@ -31,6 +31,21 @@
       "height": 19
     },
     {
+      "id": "lato-bold-2025-10-30t14-54-23-044z",
+      "family": "Lato",
+      "style": "Bold",
+      "preview_text": "Do ugotowania żurku staropolskiego \nz podanej przeze mnie ilości składników \nwybierz garnek o pojemności około 3 litrów. Z\nanim zaczniesz szykować zupę, polecam najpierw przeczytać cały przepis, by przygotować się odpowiednio wcześniej do kolejnych etapów wykonania.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-bold-2025-10-30t14-54-23-044z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-bold-2025-10-30t14-54-23-044z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-bold-2025-10-30t14-54-23-044z/font_20x30.bin",
+      "submitter": {
+        "name": "Lakafior"
+      },
+      "timestamp": "2025-10-30T14:54:23.045Z",
+      "width": 20,
+      "height": 30
+    },
+    {
       "id": "lato-regular-2025-10-30t13-45-07-448z",
       "family": "Lato",
       "style": "Regular",
@@ -109,6 +124,23 @@
     {
       "family": "Lato",
       "types": [
+        {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "lato-bold-2025-10-30t14-54-23-044z",
+              "width": 20,
+              "height": 30,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-bold-2025-10-30t14-54-23-044z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-bold-2025-10-30t14-54-23-044z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-bold-2025-10-30t14-54-23-044z/font_20x30.bin",
+              "submitter": {
+                "name": "Lakafior"
+              },
+              "timestamp": "2025-10-30T14:54:23.045Z"
+            }
+          ]
+        },
         {
           "style": "Regular",
           "sizes": [
