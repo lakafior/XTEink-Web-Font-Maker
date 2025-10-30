@@ -252,7 +252,6 @@ function renderPreviewText() {
     }
 
     const previewText = document.getElementById('previewText').value;
-    const fontSize = parseInt(document.getElementById('fontSize').value, 10) || 28;
     const charSpacing = parseInt(document.getElementById('charSpacing').value, 10) || 0;
     const lineSpacing = parseInt(document.getElementById('lineSpacing').value, 10) || 0;
     const threshold = parseInt(document.getElementById('lightnessThreshold').value, 10) || 127;
@@ -622,7 +621,42 @@ function updateControlStates() {
 document.getElementById('fontFile').addEventListener('change', handleFontFileChange);
 document.getElementById('convertBtn').addEventListener('click', convertFontToBin);
 
-const inputs = ['previewText', 'charSpacing', 'lineSpacing', 'fontSize', 'isVerticalFont', 'lightnessThreshold', 'chkRenderAntiAlias', 'chkRenderGridFit', 'chkRenderBorder', 'chkOpticalAlign'];
+const inputs = ['charSpacing', 'lineSpacing', 'fontSize', 'isVerticalFont', 'lightnessThreshold', 'chkRenderAntiAlias', 'chkRenderGridFit', 'chkRenderBorder', 'chkOpticalAlign'];
+const previewEl = document.getElementById('previewText');
+const previewCount = document.getElementById('previewCount');
+const PREVIEW_MAX = 500;
+
+function updatePreviewCount() {
+    const remaining = PREVIEW_MAX - (previewEl.value ? previewEl.value.length : 0);
+    previewCount.textContent = `${remaining} characters remaining`;
+}
+
+// prevent paste that exceeds maxlength
+previewEl.addEventListener('paste', (e) => {
+    const paste = (e.clipboardData || window.clipboardData).getData('text');
+    const willBe = (previewEl.value || '') + paste;
+    if (willBe.length > PREVIEW_MAX) {
+        e.preventDefault();
+        // trim paste to remaining
+        const allowed = PREVIEW_MAX - (previewEl.value ? previewEl.value.length : 0);
+        if (allowed > 0) {
+            const trimmed = paste.slice(0, allowed);
+            const start = previewEl.selectionStart || previewEl.value.length;
+            const before = previewEl.value.slice(0, start);
+            const after = previewEl.value.slice(previewEl.selectionEnd || start);
+            previewEl.value = before + trimmed + after;
+            // move caret
+            const pos = start + trimmed.length;
+            previewEl.setSelectionRange(pos, pos);
+            updatePreviewCount();
+            renderPreviewText();
+        }
+    }
+});
+
+previewEl.addEventListener('input', () => {
+    updatePreviewCount();
+});
 inputs.forEach(id => {
     const element = document.getElementById(id);
     if (element) {
@@ -633,6 +667,17 @@ inputs.forEach(id => {
         });
     }
 });
+
+// also wire previewText into rendering and controls
+if (previewEl) {
+    previewEl.addEventListener('input', () => {
+        updateControlStates();
+        renderPreviewText();
+        renderGlyphToCanvas('A');
+    });
+    // initialize counter
+    updatePreviewCount();
+}
 
 document.getElementById('lightnessThreshold').addEventListener('input', (e) => {
     document.getElementById('lightnessThresholdValue').textContent = e.target.value;

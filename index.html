@@ -111,9 +111,12 @@
                 <div id="fontInfo"></div>
                 <div class="control-group">
                     <label for="previewText">Preview Text:</label>
-                    <textarea id="previewText" rows="3">Zażółć gęślą jaźń 123
+                    <textarea id="previewText" rows="3" maxlength="500">Zażółć gęślą jaźń 123
 "über den großen"
 the quick brown fox</textarea>
+                    <div style="margin-top:6px; font-size:0.9em; color:var(--secondary-color);">
+                        <span id="previewCount" aria-live="polite">500 characters remaining</span>
+                    </div>
                 </div>
                 
                 <div class="previews-container">
