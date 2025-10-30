@@ -47,7 +47,7 @@ async function loadGallery() {
         try {
           const previewUrl = entry.preview_thumb || entry.preview || null;
           const binUrl = entry.bin || null;
-          const metadata = { family: entry.family, style: entry.style, preview_text: entry.preview_text, submitter: entry.submitter, timestamp: entry.timestamp };
+          const metadata = { family: entry.family, style: entry.style, preview_text: entry.preview_text, submitter: entry.submitter, timestamp: entry.timestamp, width: entry.width, height: entry.height };
           const card = createCard(metadata, previewUrl, binUrl, entry.id);
           grid.appendChild(card);
         } catch (e) {
@@ -87,7 +87,7 @@ async function loadGallery() {
       const previewFile = files.find(f => /preview_thumb\.(png|jpg|jpeg|gif)$/i.test(f.name)) || files.find(f => /preview\.(png|jpg|jpeg|gif)$/i.test(f.name));
       const binFile = files.find(f => f.name.toLowerCase().endsWith('.bin'));
 
-      let metadata = { family: dir.name, style: '', submitter: {}, timestamp: '' };
+  let metadata = { family: dir.name, style: '', submitter: {}, timestamp: '', width: null, height: null };
       if (metaFile && metaFile.download_url) {
         try {
           const metaText = await fetchText(metaFile.download_url);
@@ -96,6 +96,10 @@ async function loadGallery() {
           console.warn('Failed to parse metadata for', dir.name, e);
         }
       }
+
+      // ensure width/height keys exist even if metadata omitted them
+      metadata.width = metadata.width || null;
+      metadata.height = metadata.height || null;
 
       const previewUrl = previewFile ? previewFile.download_url : null;
       const binUrl = binFile ? binFile.download_url : null;
