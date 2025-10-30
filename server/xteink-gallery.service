@@ -1,0 +1,24 @@
+[Unit]
+Description=XTEink Gallery Server
+After=network.target
+
+[Service]
+Type=simple
+# Set environment variables in a separate file or systemd drop-in
+Environment=NODE_ENV=production
+WorkingDirectory=/var/www/XTEink-Web-Font-Toolkit/server
+ExecStart=/usr/bin/node index.js
+Restart=on-failure
+RestartSec=5s
+User=www-data
+Group=www-data
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+
+# To use:
+# 1. Copy this file to /etc/systemd/system/xteink-gallery.service
+# 2. Create an environment file or set GITHUB_TOKEN for the service e.g. via /etc/default/xteink-gallery
+# 3. systemctl daemon-reload
+# 4. systemctl enable --now xteink-gallery

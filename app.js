@@ -463,7 +463,91 @@ async function convertFontToBin() {
     a.click();
     URL.revokeObjectURL(a.href);
     setTimeout(() => { progressMsg.textContent = ''; }, 3000);
+    return { blob, width, height };
 }
+
+// Read blob to base64 (no data: prefix)
+function readBlobAsBase64(blob) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+            const res = reader.result;
+            const comma = res.indexOf(',');
+            resolve(res.slice(comma + 1));
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+    });
+}
+
+function slugify(str) {
+    return (str || '')
+        .toString()
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)/g, '');
+}
+
+async function saveToServer() {
+    const status = document.getElementById('saveServerStatus');
+    status.textContent = 'Generating .bin...';
+    const res = await convertFontToBin();
+    if (!res) { status.textContent = 'Conversion failed.'; return; }
+    const { blob, width, height } = res;
+
+    status.textContent = 'Preparing preview...';
+    const previewCanvas = document.getElementById('previewCanvas');
+    const previewBlob = await new Promise(r => previewCanvas.toBlob(r, 'image/png'));
+
+    status.textContent = 'Encoding...';
+    const binBase64 = await readBlobAsBase64(blob);
+    const previewBase64 = await readBlobAsBase64(previewBlob);
+
+    const family = activeFont ? activeFont.family_name : 'Unknown';
+    const style = activeFont ? activeFont.style_name : 'Unknown';
+    const previewText = document.getElementById('previewText').value;
+    const submitter = document.getElementById('submitterName').value.trim() || 'Anonymous';
+
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const slug = slugify(`${family}-${style}-${timestamp}`);
+    const folder = `gallery/${slug}`;
+
+    const metadata = {
+        id: slug,
+        family,
+        style,
+        preview_text: previewText,
+        width,
+        height,
+        timestamp: new Date().toISOString(),
+        submitter: { name: submitter }
+    };
+
+    const files = {};
+    files[`${folder}/metadata.json`] = btoa(JSON.stringify(metadata, null, 2));
+    files[`${folder}/preview.png`] = previewBase64;
+    files[`${folder}/font_${width}x${height}.bin`] = binBase64;
+
+    status.textContent = 'Uploading to server...';
+    try {
+        const repoFull = prompt('Enter target repository owner/repo (e.g. lakafior/XTEink-Web-Font-Toolkit):', 'lakafior/XTEink-Web-Font-Toolkit');
+        if (!repoFull) { status.textContent = 'Cancelled.'; return; }
+        const [owner, repo] = repoFull.split('/');
+
+        const resp = await fetch('/submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ owner, repo, slug, files, family, style, preview_text }) });
+        const j = await resp.json();
+        if (!resp.ok) throw new Error(j.error || JSON.stringify(j));
+        status.textContent = '';
+        alert('PR created: ' + j.pr);
+    } catch (err) {
+        console.error(err);
+        status.textContent = 'Error: ' + (err && err.message ? err.message : err);
+    }
+}
+
+document.getElementById('saveServerBtn').addEventListener('click', saveToServer);
 
 function updateControlStates() {
     const isAntiAlias = document.getElementById('chkRenderAntiAlias').checked;

@@ -125,13 +125,14 @@ the quick brown fox</textarea>
                     <p id="progressMsg"></p>
                 </div>
                 <div class="control-group">
-                    <h3>Publish to Gallery (via server)</h3>
-                    <p>Click to send the generated files to the server which will create a PR for you. No GitHub token required.</p>
+                    <h3>Publish to Gallery (GitHub)</h3>
+                    <p>Sign in with GitHub to publish. The OAuth flow keeps your credentials with GitHub and the server exchanges the code. A popup will open.</p>
                     <label for="submitterName">Your name (optional):</label>
                     <input type="text" id="submitterName" placeholder="Anonymous">
                     <div style="margin-top:8px;">
-                        <button id="saveServerBtn">Save to gallery (server)</button>
-                        <span id="saveServerStatus" style="margin-left:8px"></span>
+                        <button id="signInBtn">Sign in with GitHub</button>
+                        <button id="publishBtn">Save to gallery (create PR)</button>
+                        <span id="publishStatus" style="margin-left:8px"></span>
                     </div>
                 </div>
             </div>
