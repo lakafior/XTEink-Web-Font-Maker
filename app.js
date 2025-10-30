@@ -252,6 +252,7 @@ function renderPreviewText() {
     }
 
     const previewText = document.getElementById('previewText').value;
+    const fontSize = parseInt(document.getElementById('fontSize').value, 10) || 28;
     const charSpacing = parseInt(document.getElementById('charSpacing').value, 10) || 0;
     const lineSpacing = parseInt(document.getElementById('lineSpacing').value, 10) || 0;
     const threshold = parseInt(document.getElementById('lightnessThreshold').value, 10) || 127;
@@ -693,7 +694,7 @@ updateControlStates();
 
 // --- Developer helper: verify bin glyphs match preview ---
 // Usage (in console): verifyBinMatchesPreview(['A','a','0']);
-window.verifyBinMatchesPreview = async function(chars = ['A','a','0']) {
+window.verifyBinMatchesPreview = async function(chars = ['A','a','0'], show = false) {
     if (!activeFont) {
         console.warn('No font loaded. Load a font first.');
         return;
@@ -804,8 +805,74 @@ window.verifyBinMatchesPreview = async function(chars = ['A','a','0']) {
         }
         if (mismatch === 0) console.log(`OK: '${ch}' matches exactly (${width}x${height})`);
         else console.warn(`MISMATCH: '${ch}' has ${mismatch} differing pixels (${width}x${height})`);
-        // expose canvases for manual inspection
+        // expose canvases for manual inspection in console
         console.log('original canvas:', orig);
         console.log('unpacked canvas:', unpacked);
+
+        if (show) {
+            try {
+                let container = document.getElementById('verify-compare');
+                if (!container) {
+                    container = document.createElement('div');
+                    container.id = 'verify-compare';
+                    container.style.position = 'fixed';
+                    container.style.right = '12px';
+                    container.style.top = '12px';
+                    container.style.zIndex = 9999;
+                    container.style.maxHeight = '90vh';
+                    container.style.overflow = 'auto';
+                    container.style.background = 'rgba(255,255,255,0.95)';
+                    container.style.border = '1px solid #ddd';
+                    container.style.padding = '8px';
+                    container.style.boxShadow = '0 6px 24px rgba(0,0,0,0.15)';
+                    container.style.fontSize = '13px';
+                    const closeBtn = document.createElement('button');
+                    closeBtn.textContent = '✕';
+                    closeBtn.style.float = 'right';
+                    closeBtn.style.marginLeft = '8px';
+                    closeBtn.addEventListener('click', () => container.remove());
+                    container.appendChild(closeBtn);
+                    const title = document.createElement('div');
+                    title.textContent = 'verifyBinMatchesPreview results';
+                    title.style.fontWeight = '700';
+                    title.style.marginBottom = '6px';
+                    container.appendChild(title);
+                    document.body.appendChild(container);
+                }
+
+                const block = document.createElement('div');
+                block.style.display = 'flex';
+                block.style.gap = '8px';
+                block.style.alignItems = 'center';
+                block.style.marginBottom = '8px';
+
+                const label = document.createElement('div');
+                label.textContent = `${ch} — ${mismatch === 0 ? 'OK' : 'MISMATCH: ' + mismatch}`;
+                label.style.minWidth = '140px';
+                block.appendChild(label);
+
+                const wrapOrig = document.createElement('div');
+                const l1 = document.createElement('div'); l1.textContent = 'original'; l1.style.fontSize = '11px'; l1.style.textAlign = 'center';
+                wrapOrig.appendChild(l1);
+                wrapOrig.appendChild(orig);
+                const a1 = document.createElement('a'); a1.textContent = 'download'; a1.href = orig.toDataURL('image/png'); a1.download = `${ch}-orig.png`;
+                wrapOrig.appendChild(a1);
+                block.appendChild(wrapOrig);
+
+                const wrapUn = document.createElement('div');
+                const l2 = document.createElement('div'); l2.textContent = 'unpacked'; l2.style.fontSize = '11px'; l2.style.textAlign = 'center';
+                wrapUn.appendChild(l2);
+                wrapUn.appendChild(unpacked);
+                const a2 = document.createElement('a'); a2.textContent = 'download'; a2.href = unpacked.toDataURL('image/png'); a2.download = `${ch}-unpacked.png`;
+                wrapUn.appendChild(a2);
+                block.appendChild(wrapUn);
+
+                container.appendChild(block);
+            } catch (e) {
+                console.warn('Failed to render compare UI', e);
+            }
+        }
     }
 };
+// also expose on globalThis for console environments where window may not be the global
+try { globalThis.verifyBinMatchesPreview = window.verifyBinMatchesPreview; } catch (e) { /* ignore */ }
