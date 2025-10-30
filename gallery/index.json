@@ -1,62 +1,154 @@
-[
-  {
-    "id": "bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z",
-    "family": "Bitcount Grid Single Cursive",
-    "style": "Regular",
-    "preview_text": "Unsre Schritte klingen ihnen zu \neinsam durch die Gassen. Und wie wenn\nsie Nachts in ihren Betten einen Mann gehen hören, lange bevor die\nSonne aufsteht, so fragen sie \nsich wohl: wohin will der Dieb?",
-    "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/preview_thumb.png",
-    "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/preview.png",
-    "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/font_22x24.bin",
-    "submitter": {
-      "name": "Lakafior"
+{
+  "entries": [
+    {
+      "id": "bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z",
+      "family": "Bitcount Grid Single Cursive",
+      "style": "Regular",
+      "preview_text": "Unsre Schritte klingen ihnen zu \neinsam durch die Gassen. Und wie wenn\nsie Nachts in ihren Betten einen Mann gehen hören, lange bevor die\nSonne aufsteht, so fragen sie \nsich wohl: wohin will der Dieb?",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/font_22x24.bin",
+      "submitter": {
+        "name": "Lakafior"
+      },
+      "timestamp": "2025-10-30T14:30:19.295Z",
+      "width": 22,
+      "height": 24
     },
-    "timestamp": "2025-10-30T14:30:19.295Z",
-    "width": 22,
-    "height": 24
-  },
-  {
-    "id": "bookerly-regular-2025-10-30t13-10-52-681z",
-    "family": "Bookerly",
-    "style": "Regular",
-    "preview_text": "Zażółć gęślą jaźń 123\n\"über den großen\"\nthe quick brown fox",
-    "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/preview_thumb.png",
-    "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/preview.png",
-    "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/font_15x19.bin",
-    "submitter": {
-      "name": "Lakafior"
+    {
+      "id": "bookerly-regular-2025-10-30t13-10-52-681z",
+      "family": "Bookerly",
+      "style": "Regular",
+      "preview_text": "Zażółć gęślą jaźń 123\n\"über den großen\"\nthe quick brown fox",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/font_15x19.bin",
+      "submitter": {
+        "name": "Lakafior"
+      },
+      "timestamp": "2025-10-30T13:10:52.681Z",
+      "width": 15,
+      "height": 19
     },
-    "timestamp": "2025-10-30T13:10:52.681Z",
-    "width": 15,
-    "height": 19
-  },
-  {
-    "id": "lato-regular-2025-10-30t13-45-07-448z",
-    "family": "Lato",
-    "style": "Regular",
-    "preview_text": "Litwo! Ojczyzno moja! ty jesteś jak zdrowie.\nIle cię trzeba cenić, ten tylko się dowie,\nKto cię stracił. Dziś piękność twą w całej ozdobie\nWidzę i opisuję, bo tęsknię po tobie.\nPanno Święta, co Jasnej bronisz Częstochowy\nI w Ostrej świecisz Bramie! Ty, co gród zamkowy\nNowogródzki ochraniasz z jego wiernym ludem!",
-    "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/preview_thumb.png",
-    "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/preview.png",
-    "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/font_14x21.bin",
-    "submitter": {
-      "name": "Lakafior"
+    {
+      "id": "lato-regular-2025-10-30t13-45-07-448z",
+      "family": "Lato",
+      "style": "Regular",
+      "preview_text": "Litwo! Ojczyzno moja! ty jesteś jak zdrowie.\nIle cię trzeba cenić, ten tylko się dowie,\nKto cię stracił. Dziś piękność twą w całej ozdobie\nWidzę i opisuję, bo tęsknię po tobie.\nPanno Święta, co Jasnej bronisz Częstochowy\nI w Ostrej świecisz Bramie! Ty, co gród zamkowy\nNowogródzki ochraniasz z jego wiernym ludem!",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/font_14x21.bin",
+      "submitter": {
+        "name": "Lakafior"
+      },
+      "timestamp": "2025-10-30T13:45:07.449Z",
+      "width": 14,
+      "height": 21
     },
-    "timestamp": "2025-10-30T13:45:07.449Z",
-    "width": 14,
-    "height": 21
-  },
-  {
-    "id": "roboto-condensed-semibold-2025-10-30t14-12-22-188z",
-    "family": "Roboto Condensed",
-    "style": "SemiBold",
-    "preview_text": "Last night of all,\nWhen yond same star that's westward from the pole\nHad made his course to illume that part of heaven\nWhere now it burns, Marcellus and myself,\nThe bell then beating one,",
-    "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/preview_thumb.png",
-    "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/preview.png",
-    "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/font_18x28.bin",
-    "submitter": {
-      "name": "Lakafior"
+    {
+      "id": "roboto-condensed-semibold-2025-10-30t14-12-22-188z",
+      "family": "Roboto Condensed",
+      "style": "SemiBold",
+      "preview_text": "Last night of all,\nWhen yond same star that's westward from the pole\nHad made his course to illume that part of heaven\nWhere now it burns, Marcellus and myself,\nThe bell then beating one,",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/font_18x28.bin",
+      "submitter": {
+        "name": "Lakafior"
+      },
+      "timestamp": "2025-10-30T14:12:22.188Z",
+      "width": 18,
+      "height": 28
+    }
+  ],
+  "tree": [
+    {
+      "family": "Bitcount Grid Single Cursive",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z",
+              "width": 22,
+              "height": 24,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z/font_22x24.bin",
+              "submitter": {
+                "name": "Lakafior"
+              },
+              "timestamp": "2025-10-30T14:30:19.295Z"
+            }
+          ]
+        }
+      ]
     },
-    "timestamp": "2025-10-30T14:12:22.188Z",
-    "width": 18,
-    "height": 28
-  }
-]
+    {
+      "family": "Bookerly",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "bookerly-regular-2025-10-30t13-10-52-681z",
+              "width": 15,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-10-30t13-10-52-681z/font_15x19.bin",
+              "submitter": {
+                "name": "Lakafior"
+              },
+              "timestamp": "2025-10-30T13:10:52.681Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "lato-regular-2025-10-30t13-45-07-448z",
+              "width": 14,
+              "height": 21,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-regular-2025-10-30t13-45-07-448z/font_14x21.bin",
+              "submitter": {
+                "name": "Lakafior"
+              },
+              "timestamp": "2025-10-30T13:45:07.449Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Roboto Condensed",
+      "types": [
+        {
+          "style": "SemiBold",
+          "sizes": [
+            {
+              "id": "roboto-condensed-semibold-2025-10-30t14-12-22-188z",
+              "width": 18,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-condensed-semibold-2025-10-30t14-12-22-188z/font_18x28.bin",
+              "submitter": {
+                "name": "Lakafior"
+              },
+              "timestamp": "2025-10-30T14:12:22.188Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
