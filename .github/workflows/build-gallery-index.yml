@@ -14,6 +14,8 @@ on:
 jobs:
   build-index:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     if: github.event.pull_request == null || (github.event.pull_request.merged == true)
     steps:
       - name: Checkout
@@ -34,7 +36,7 @@ jobs:
           commit_message: "chore(gallery): update index.json"
           file_pattern: "gallery/index.json"
           branch: main
-          author_name: github-actions
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_user: github-actions[bot]
-          commit_email: 41898282+github-actions[bot]@users.noreply.github.com
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
