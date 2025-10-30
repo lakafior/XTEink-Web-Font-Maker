@@ -494,6 +494,14 @@ function slugify(str) {
         .replace(/(^-|-$)/g, '');
 }
 
+// Properly base64-encode a UTF-8 string in browsers
+function base64EncodeUnicode(str) {
+    // encodeURIComponent -> percent-encodings -> convert to raw bytes
+    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+        return String.fromCharCode('0x' + p1);
+    }));
+}
+
 async function saveToServer() {
     const status = document.getElementById('saveServerStatus');
     status.textContent = 'Generating .bin...';
@@ -530,7 +538,7 @@ async function saveToServer() {
     };
 
     const files = {};
-    files[`${folder}/metadata.json`] = btoa(JSON.stringify(metadata, null, 2));
+    files[`${folder}/metadata.json`] = base64EncodeUnicode(JSON.stringify(metadata, null, 2));
     files[`${folder}/preview.png`] = previewBase64;
     files[`${folder}/font_${width}x${height}.bin`] = binBase64;
 
