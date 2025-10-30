@@ -539,6 +539,16 @@ async function saveToServer() {
     const previewBase64 = await readBlobAsBase64(previewBlob);
     const thumbBase64 = await readBlobAsBase64(thumbBlob);
 
+    // Pre-upload check: inform user if bin is too large for server default
+    const binBytes = blob.size || Math.floor(binBase64.length * 3 / 4);
+    const SERVER_MAX_BIN = 12 * 1024 * 1024; // 12B client-side expectation (matches server default)
+    if (binBytes > SERVER_MAX_BIN) {
+        const mb = (binBytes / (1024*1024)).toFixed(2);
+        alert(`Generated .bin file is ${mb} MB which exceeds the configured server limit (~${SERVER_MAX_BIN/(1024*1024)} MB). Please reduce font size/spacing or enable different settings. Alternatively increase server MAX_BIN_BYTES.`);
+        status.textContent = 'Error: .bin file too large for server';
+        return;
+    }
+
     const family = activeFont ? activeFont.family_name : 'Unknown';
     const style = activeFont ? activeFont.style_name : 'Unknown';
     const previewText = document.getElementById('previewText').value;

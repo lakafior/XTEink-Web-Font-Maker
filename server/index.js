@@ -23,7 +23,7 @@ app.post('/submit', async (req, res) => {
 
     // Basic validation and size limits
     const MAX_PREVIEW_BYTES = parseInt(process.env.MAX_PREVIEW_BYTES || '512000', 10); // ~500KB
-    const MAX_BIN_BYTES = parseInt(process.env.MAX_BIN_BYTES || '4194304', 10); // ~4MB
+    const MAX_BIN_BYTES = parseInt(process.env.MAX_BIN_BYTES || '12582912', 10); // ~12MB
 
     try {
         // validate expected files keys
@@ -37,8 +37,8 @@ app.post('/submit', async (req, res) => {
         const binB64 = files[binKey];
         const previewBytes = Math.floor(previewB64.length * 3 / 4);
         const binBytes = Math.floor(binB64.length * 3 / 4);
-        if (previewBytes > MAX_PREVIEW_BYTES) return res.status(400).json({ error: 'Preview too large' });
-        if (binBytes > MAX_BIN_BYTES) return res.status(400).json({ error: 'Bin file too large' });
+    if (previewBytes > MAX_PREVIEW_BYTES) return res.status(400).json({ error: 'Preview too large', max_bytes: MAX_PREVIEW_BYTES, given_bytes: previewBytes });
+    if (binBytes > MAX_BIN_BYTES) return res.status(400).json({ error: 'Bin file too large', max_bytes: MAX_BIN_BYTES, given_bytes: binBytes });
 
         // optional: validate bin size vs metadata width/height
         const metadata = JSON.parse(Buffer.from(files[metadataKey], 'base64').toString('utf8'));
