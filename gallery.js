@@ -32,6 +32,36 @@ async function loadGallery() {
   const grid = el('div', { class: 'gallery-grid' });
   root.appendChild(grid);
 
+  // First try a static index.json (faster and avoids API rate limits)
+  try {
+    const indexResp = await fetch('./gallery/index.json');
+    if (indexResp.ok) {
+      const items = await indexResp.json();
+      if (!Array.isArray(items) || items.length === 0) {
+        root.innerHTML = '';
+        root.appendChild(el('div', { class: 'loading', text: 'No gallery entries found.' }));
+        return;
+      }
+
+      for (const entry of items) {
+        try {
+          const previewUrl = entry.preview_thumb || entry.preview || null;
+          const binUrl = entry.bin || null;
+          const metadata = { family: entry.family, style: entry.style, preview_text: entry.preview_text, submitter: entry.submitter, timestamp: entry.timestamp };
+          const card = createCard(metadata, previewUrl, binUrl, entry.id);
+          grid.appendChild(card);
+        } catch (e) {
+          console.warn('Failed to render entry from index:', entry.id, e);
+        }
+      }
+      return;
+    }
+  } catch (e) {
+    // ignore and fall back to API
+    console.info('index.json not available, falling back to GitHub API', e && e.message);
+  }
+
+  // Fallback: query GitHub Contents API (previous behavior)
   let list;
   try {
     list = await fetchJson(API_ROOT);
@@ -42,7 +72,6 @@ async function loadGallery() {
     return;
   }
 
-  // Filter for directories only (each submission is a directory)
   const dirs = Array.isArray(list) ? list.filter(i => i.type === 'dir') : [];
   if (dirs.length === 0) {
     root.innerHTML = '';
@@ -50,13 +79,12 @@ async function loadGallery() {
     return;
   }
 
-  // Load each directory's contents in parallel (but keep simple)
   await Promise.all(dirs.map(async (dir) => {
     try {
       const files = await fetchJson(dir.url); // API url for the directory
       // find metadata.json / preview.png / .bin
       const metaFile = files.find(f => f.name.toLowerCase() === 'metadata.json');
-      const previewFile = files.find(f => /preview\.(png|jpg|jpeg|gif)$/i.test(f.name));
+      const previewFile = files.find(f => /preview_thumb\.(png|jpg|jpeg|gif)$/i.test(f.name)) || files.find(f => /preview\.(png|jpg|jpeg|gif)$/i.test(f.name));
       const binFile = files.find(f => f.name.toLowerCase().endsWith('.bin'));
 
       let metadata = { family: dir.name, style: '', submitter: {}, timestamp: '' };

@@ -26,8 +26,10 @@
 <body>
     <div class="container">
         <header>
-            <h1>XTEink Web Font Maker</h1>
-            <nav class="top-nav"><a href="gallery.html">Gallery</a></nav>
+            <div class="header-top">
+                <h1>XTEink Web Font Maker</h1>
+                <nav class="top-nav"><a class="nav-btn" href="gallery.html">Gallery</a></nav>
+            </div>
             <p>A web-based tool to convert fonts to the XTEink binary format.</p>
         </header>
 
@@ -127,11 +129,11 @@ the quick brown fox</textarea>
                 </div>
                 <div class="control-group">
                     <h3>Publish to Gallery (via server)</h3>
-                    <p>Click to send the generated files to the server which will create a PR for you. No GitHub token required.</p>
+                    <p>Click to send the generated files to the server which will create a PR for you. After approving PR by repo maintainers it will be shown in <a href="gallery.html">gallery.</a><</p>
                     <label for="submitterName">Your name (optional):</label>
                     <input type="text" id="submitterName" placeholder="Anonymous">
                     <div style="margin-top:8px;">
-                        <button id="saveServerBtn">Save to gallery (server)</button>
+                        <button id="saveServerBtn">Save to gallery</button>
                         <span id="saveServerStatus" style="margin-left:8px"></span>
                     </div>
                 </div>

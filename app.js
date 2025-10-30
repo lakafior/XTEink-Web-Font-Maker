@@ -513,9 +513,31 @@ async function saveToServer() {
     const previewCanvas = document.getElementById('previewCanvas');
     const previewBlob = await new Promise(r => previewCanvas.toBlob(r, 'image/png'));
 
+    // Create a small thumbnail for gallery listing (max dimension 360px)
+    function createThumbnail(canvas, maxDim = 360) {
+        const w = canvas.width;
+        const h = canvas.height;
+        const ratio = Math.max(1, Math.max(w, h) / maxDim);
+        const tw = Math.max(1, Math.round(w / ratio));
+        const th = Math.max(1, Math.round(h / ratio));
+        const tmp = document.createElement('canvas');
+        tmp.width = tw;
+        tmp.height = th;
+        const tctx = tmp.getContext('2d');
+        // White background
+        tctx.fillStyle = '#fff';
+        tctx.fillRect(0, 0, tw, th);
+        tctx.drawImage(canvas, 0, 0, w, h, 0, 0, tw, th);
+        return tmp;
+    }
+
+    const thumbCanvas = createThumbnail(previewCanvas, 360);
+    const thumbBlob = await new Promise(r => thumbCanvas.toBlob(r, 'image/png'));
+
     status.textContent = 'Encoding...';
     const binBase64 = await readBlobAsBase64(blob);
     const previewBase64 = await readBlobAsBase64(previewBlob);
+    const thumbBase64 = await readBlobAsBase64(thumbBlob);
 
     const family = activeFont ? activeFont.family_name : 'Unknown';
     const style = activeFont ? activeFont.style_name : 'Unknown';
@@ -540,6 +562,7 @@ async function saveToServer() {
     const files = {};
     files[`${folder}/metadata.json`] = base64EncodeUnicode(JSON.stringify(metadata, null, 2));
     files[`${folder}/preview.png`] = previewBase64;
+    files[`${folder}/preview_thumb.png`] = thumbBase64;
     files[`${folder}/font_${width}x${height}.bin`] = binBase64;
 
     status.textContent = 'Uploading to server...';

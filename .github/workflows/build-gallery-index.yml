@@ -1,0 +1,40 @@
+name: Build Gallery Index
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'gallery/**'
+  pull_request:
+    types: [closed]
+    branches: [ main ]
+    paths:
+      - 'gallery/**'
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request == null || (github.event.pull_request.merged == true)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run builder
+        run: |
+          node tools/build_index.js
+
+      - name: Commit index
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(gallery): update index.json"
+          file_pattern: "gallery/index.json"
+          branch: main
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_user: github-actions[bot]
+          commit_email: 41898282+github-actions[bot]@users.noreply.github.com

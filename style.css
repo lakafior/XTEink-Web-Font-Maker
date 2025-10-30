@@ -29,6 +29,30 @@ header {
     margin-bottom: 30px;
 }
 
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.top-nav { margin-left: auto; }
+
+.nav-btn {
+    display: inline-block;
+    padding: 10px 14px;
+    background: linear-gradient(180deg, #3aa0ff 0%, #007bff 100%);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    transition: transform 0.07s ease, box-shadow 0.12s ease;
+}
+
+.nav-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 10px rgba(0,0,0,0.14); }
+
+
 header h1 {
     font-size: 2.5em;
     margin-bottom: 0.2em;
@@ -195,4 +219,6 @@ footer a:hover {
     .previews-container {
         flex-direction: column;
     }
+    .header-top { flex-direction: column; align-items: flex-start; }
+    .nav-btn { width: 100%; text-align: center; }
 }
