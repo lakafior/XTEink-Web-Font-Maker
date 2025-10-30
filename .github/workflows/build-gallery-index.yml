@@ -12,11 +12,39 @@ on:
       - 'gallery/**'
 
 jobs:
-  build-index:
+  build-index-push:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    if: github.event.pull_request == null || (github.event.pull_request.merged == true)
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run builder
+        run: |
+          node tools/build_index.js
+
+      - name: Commit index
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(gallery): update index.json"
+          file_pattern: "gallery/index.json"
+          branch: main
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+  build-index-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    if: github.event_name == 'pull_request' && github.event.pull_request && github.event.pull_request.merged == true
     steps:
       - name: Checkout
         uses: actions/checkout@v4

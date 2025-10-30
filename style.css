@@ -52,6 +52,15 @@ header {
 
 .nav-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 10px rgba(0,0,0,0.14); }
 
+/* group of nav buttons (keeps them inline and responsive) */
+.nav-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-group .nav-btn { white-space: nowrap; }
+
 
 header h1 {
     font-size: 2.5em;
@@ -232,5 +241,8 @@ footer a:hover {
         flex-direction: column;
     }
     .header-top { flex-direction: column; align-items: flex-start; }
-    .nav-btn { width: 100%; text-align: center; }
+    /* keep nav buttons next to each other on small screens */
+    .nav-group { width: 100%; justify-content: flex-start; gap: 6px; }
+    .nav-group .nav-btn { flex: 0 1 auto; min-width: 80px; padding: 7px 10px; font-size: 14px; }
+    .top-link { margin: 12px 0 20px; }
 }
