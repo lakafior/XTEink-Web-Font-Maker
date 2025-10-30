@@ -36,25 +36,73 @@ async function loadGallery() {
   try {
     const indexResp = await fetch('./gallery/index.json');
     if (indexResp.ok) {
-      const items = await indexResp.json();
-      if (!Array.isArray(items) || items.length === 0) {
-        root.innerHTML = '';
-        root.appendChild(el('div', { class: 'loading', text: 'No gallery entries found.' }));
+      const payload = await indexResp.json();
+      const tree = payload && payload.tree ? payload.tree : null;
+      const entries = payload && payload.entries ? payload.entries : null;
+
+      if (tree && Array.isArray(tree) && tree.length > 0) {
+        // Render nested tree: family -> type -> sizes
+        for (const family of tree) {
+          const famNode = el('div', { class: 'family-node' });
+          const famHeader = el('button', { class: 'family-header', text: family.family });
+          const famBody = el('div', { class: 'family-body' });
+          // show families expanded by default
+          famBody.style.display = 'block';
+          famHeader.setAttribute('aria-expanded', 'true');
+          famHeader.addEventListener('click', () => {
+            const isHidden = famBody.style.display === 'none';
+            famBody.style.display = isHidden ? 'block' : 'none';
+            famHeader.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+          });
+          famNode.appendChild(famHeader);
+
+          for (const type of family.types) {
+            const typeNode = el('div', { class: 'type-node' });
+            const typeHeader = el('button', { class: 'type-header', text: type.style });
+            const typeBody = el('div', { class: 'type-body' });
+            // show types expanded by default
+            typeBody.style.display = 'grid';
+            typeHeader.setAttribute('aria-expanded', 'true');
+            typeHeader.addEventListener('click', () => {
+              const isHidden = typeBody.style.display === 'none';
+              typeBody.style.display = isHidden ? 'grid' : 'none';
+              typeHeader.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+            });
+            typeNode.appendChild(typeHeader);
+
+            const sizesGrid = el('div', { class: 'sizes-grid' });
+            for (const size of type.sizes) {
+              const metadata = { family: family.family, style: type.style, preview_text: '', submitter: size.submitter, timestamp: size.timestamp, width: size.width, height: size.height };
+              const card = createCard(metadata, size.preview_thumb || size.preview || null, size.bin || null, size.id);
+              sizesGrid.appendChild(card);
+            }
+
+            typeBody.appendChild(sizesGrid);
+            typeNode.appendChild(typeBody);
+            famBody.appendChild(typeNode);
+          }
+
+          famNode.appendChild(famBody);
+          grid.appendChild(famNode);
+        }
         return;
       }
 
-      for (const entry of items) {
-        try {
-          const previewUrl = entry.preview_thumb || entry.preview || null;
-          const binUrl = entry.bin || null;
-          const metadata = { family: entry.family, style: entry.style, preview_text: entry.preview_text, submitter: entry.submitter, timestamp: entry.timestamp, width: entry.width, height: entry.height };
-          const card = createCard(metadata, previewUrl, binUrl, entry.id);
-          grid.appendChild(card);
-        } catch (e) {
-          console.warn('Failed to render entry from index:', entry.id, e);
+      // fallback to flat entries if tree missing
+      if (entries && Array.isArray(entries) && entries.length > 0) {
+        for (const entry of entries) {
+          try {
+            const previewUrl = entry.preview_thumb || entry.preview || null;
+            const binUrl = entry.bin || null;
+            const metadata = { family: entry.family, style: entry.style, preview_text: entry.preview_text, submitter: entry.submitter, timestamp: entry.timestamp, width: entry.width, height: entry.height };
+            const card = createCard(metadata, previewUrl, binUrl, entry.id);
+            grid.appendChild(card);
+          } catch (e) {
+            console.warn('Failed to render entry from index:', entry.id, e);
+          }
         }
+        return;
       }
-      return;
     }
   } catch (e) {
     // ignore and fall back to API
@@ -124,7 +172,7 @@ function createCard(metadata, previewUrl, binUrl, slug) {
 
   const meta = el('div', { class: 'meta' });
   meta.appendChild(el('b', { text: `${metadata.family || slug} — ${metadata.style || ''}` }));
-  if (metadata.preview_text) meta.appendChild(el('div', { text: `Preview: "${metadata.preview_text}"` }));
+  // preview text is hidden on the main listing; shown in modal only
   if (metadata.submitter && metadata.submitter.name) meta.appendChild(el('div', { text: `Submitted by: ${metadata.submitter.name}` }));
   if (metadata.timestamp) meta.appendChild(el('div', { text: `Date: ${new Date(metadata.timestamp).toLocaleString()}` }));
   // show glyph size if available

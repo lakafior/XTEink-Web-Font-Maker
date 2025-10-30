@@ -207,6 +207,27 @@ canvas {
 
 .card .meta .size { color: var(--secondary-color); font-size: 0.9em; margin-top:6px; }
 
+/* Tree view for gallery */
+.family-node { margin-bottom: 18px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+.family-header, .type-header {
+    display: inline-block;
+    background: var(--card-background-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    transition: background 0.12s ease, transform 0.08s ease;
+}
+.family-header { font-size: 1.1em; }
+.family-header:hover, .type-header:hover { transform: translateY(-1px); background: linear-gradient(180deg, #fff, #f6f6f6); }
+.type-node { margin: 8px 0 12px 12px; }
+.type-body { margin-top: 8px; }
+.sizes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.sizes-grid .card { margin: 0; }
+
 .text-preview-container {
     flex: 1;
     min-width: 200px;

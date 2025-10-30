@@ -54,6 +54,35 @@ for (const slug of entries) {
   });
 }
 
+// Build a tree grouped by family -> style -> sizes
+const familyMap = new Map();
+for (const e of out) {
+  const fam = e.family || 'Unknown';
+  const style = e.style || 'Regular';
+  if (!familyMap.has(fam)) familyMap.set(fam, new Map());
+  const styleMap = familyMap.get(fam);
+  if (!styleMap.has(style)) styleMap.set(style, []);
+  styleMap.get(style).push({
+    id: e.id,
+    width: e.width,
+    height: e.height,
+    preview_thumb: e.preview_thumb,
+    preview: e.preview,
+    bin: e.bin,
+    submitter: e.submitter,
+    timestamp: e.timestamp
+  });
+}
+
+const tree = Array.from(familyMap.entries()).map(([family, styleMap]) => ({
+  family,
+  types: Array.from(styleMap.entries()).map(([style, sizes]) => ({
+    style,
+    sizes
+  }))
+}));
+
+const indexObj = { entries: out, tree };
 const indexPath = path.join(galleryDir, 'index.json');
-fs.writeFileSync(indexPath, JSON.stringify(out, null, 2), 'utf8');
-console.log('Wrote', indexPath, 'with', out.length, 'entries');
+fs.writeFileSync(indexPath, JSON.stringify(indexObj, null, 2), 'utf8');
+console.log('Wrote', indexPath, 'with', out.length, 'entries and', tree.length, 'families');
