@@ -300,8 +300,10 @@ function renderPreviewText() {
 
                 if (bitmap.width > 0 && bitmap.rows > 0 && bitmap.imagedata) {
                     let dx = charX + Math.floor((boxWidth - bitmap.width) / 2);
-                     if(useOpticalAlign) {
-                        dx = charX + getOpticalDx(char, bitmap.width, boxWidth, i === 0);
+                    if(useOpticalAlign) {
+                        // For bin file compatibility, treat each glyph as first-in-line
+                        // (no pseudo-kerning). This ensures the preview matches the .bin output.
+                        dx = charX + getOpticalDx(char, bitmap.width, boxWidth, true);
                     }
                     const baseline = lineY - boxHeight + Math.round(boxHeight * 0.75);
                     const dy = baseline - glyph.bitmap_top;
@@ -688,3 +690,122 @@ window.addEventListener('resize', renderPreviewText);
 
 // Set initial state on load
 updateControlStates();
+
+// --- Developer helper: verify bin glyphs match preview ---
+// Usage (in console): verifyBinMatchesPreview(['A','a','0']);
+window.verifyBinMatchesPreview = async function(chars = ['A','a','0']) {
+    if (!activeFont) {
+        console.warn('No font loaded. Load a font first.');
+        return;
+    }
+    const fontSize = parseInt(document.getElementById('fontSize').value, 10) || 28;
+    const charSpacing = parseInt(document.getElementById('charSpacing').value, 10) || 0;
+    const lineSpacing = parseInt(document.getElementById('lineSpacing').value, 10) || 0;
+    const threshold = parseInt(document.getElementById('lightnessThreshold').value, 10) || 127;
+    const shouldRenderBorder = document.getElementById('chkRenderBorder').checked;
+    const useOpticalAlign = document.getElementById('chkOpticalAlign').checked;
+    const isVerticalFont = document.getElementById('isVerticalFont').checked;
+
+    const width = fontSize + charSpacing;
+    const height = fontSize + lineSpacing;
+
+    function renderGlyphOffscreen(char) {
+        const canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#fff';
+        ctx.fillRect(0,0,canvas.width, canvas.height);
+        if (shouldRenderBorder) {
+            ctx.strokeStyle = '#000'; ctx.lineWidth = 1; ctx.strokeRect(0.5,0.5,canvas.width-1,canvas.height-1);
+        }
+        if (ft && activeFont) {
+            ft.SetFont(activeFont.family_name, activeFont.style_name);
+            ft.SetPixelSize(0, fontSize);
+            const loadFlags = getFreetypeLoadFlags();
+            const glyphs = ft.LoadGlyphs([char.charCodeAt(0)], loadFlags);
+            const glyph = glyphs.get(char.charCodeAt(0));
+            if (glyph && glyph.bitmap && glyph.bitmap.width > 0 && glyph.bitmap.rows > 0 && glyph.bitmap.imagedata) {
+                const bitmap = glyph.bitmap;
+                let dx = Math.floor((width - bitmap.width) / 2);
+                if (useOpticalAlign) dx = getOpticalDx(char, bitmap.width, width, true);
+                const baseline = Math.round(height * 0.75);
+                const dy = baseline - glyph.bitmap_top;
+                const sourceData = bitmap.imagedata.data;
+                ctx.fillStyle = '#000';
+                for (let y = 0; y < bitmap.rows; y++) {
+                    for (let x = 0; x < bitmap.width; x++) {
+                        const i = (y * bitmap.width + x) * 4;
+                        if (sourceData[i + 3] > threshold) ctx.fillRect(dx + x, dy + y, 1, 1);
+                    }
+                }
+            }
+        }
+        return canvas;
+    }
+
+    function packCanvasToBinBytes(canvas) {
+        const ctx = canvas.getContext('2d');
+        const data = ctx.getImageData(0,0,canvas.width,canvas.height).data;
+        const widthByte = Math.ceil(canvas.width / 8);
+        const charByte = widthByte * canvas.height;
+        const arr = new Uint8Array(charByte);
+        arr.fill(0);
+        for (let y = 0; y < canvas.height; y++) {
+            for (let x = 0; x < canvas.width; x++) {
+                const idx = (y * canvas.width + x) * 4;
+                const bit = (data[idx] < 128) ? 1 : 0;
+                if (bit) {
+                    const byteIdx = y * widthByte + (x >> 3);
+                    const bitIdx = 7 - (x % 8);
+                    arr[byteIdx] |= (1 << bitIdx);
+                }
+            }
+        }
+        return { bytes: arr, widthByte, charByte };
+    }
+
+    function unpackBinBytesToCanvas(bytes, width, height) {
+        const canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#fff'; ctx.fillRect(0,0,width,height);
+        const img = ctx.getImageData(0,0,width,height);
+        const widthByte = Math.ceil(width / 8);
+        for (let y = 0; y < height; y++) {
+            for (let x = 0; x < width; x++) {
+                const byteIdx = y * widthByte + (x >> 3);
+                const bitIdx = 7 - (x % 8);
+                const bit = (bytes[byteIdx] >> bitIdx) & 1;
+                if (bit) {
+                    const i = (y * width + x) * 4;
+                    img.data[i] = 0; img.data[i+1] = 0; img.data[i+2] = 0; img.data[i+3] = 255;
+                }
+            }
+        }
+        ctx.putImageData(img, 0, 0);
+        return canvas;
+    }
+
+    for (const ch of chars) {
+        const orig = renderGlyphOffscreen(ch);
+        const packed = packCanvasToBinBytes(orig);
+        const unpacked = unpackBinBytesToCanvas(packed.bytes, width, height);
+
+        // compare pixel-wise
+        const a = orig.getContext('2d').getImageData(0,0,width,height).data;
+        const b = unpacked.getContext('2d').getImageData(0,0,width,height).data;
+        let mismatch = 0;
+        for (let i = 0; i < a.length; i += 4) {
+            const aa = a[i] < 128 ? 1 : 0;
+            const bb = b[i] < 128 ? 1 : 0;
+            if (aa !== bb) mismatch++;
+        }
+        if (mismatch === 0) console.log(`OK: '${ch}' matches exactly (${width}x${height})`);
+        else console.warn(`MISMATCH: '${ch}' has ${mismatch} differing pixels (${width}x${height})`);
+        // expose canvases for manual inspection
+        console.log('original canvas:', orig);
+        console.log('unpacked canvas:', unpacked);
+    }
+};
