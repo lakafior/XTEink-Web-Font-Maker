@@ -15,6 +15,10 @@ try {
 
 // --- Helper Functions ---
 
+// API base URL for server submissions. Set this to your Cloudflare Tunnel hostname.
+const API_BASE = 'https://api.xtgallery.lakafior.com';
+
+
 function getFreetypeLoadFlags() {
     const isAntiAlias = document.getElementById('chkRenderAntiAlias').checked;
     const isGridFit = document.getElementById('chkRenderGridFit').checked;
@@ -536,7 +540,7 @@ async function saveToServer() {
         if (!repoFull) { status.textContent = 'Cancelled.'; return; }
         const [owner, repo] = repoFull.split('/');
 
-        const resp = await fetch('/submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ owner, repo, slug, files, family, style, preview_text }) });
+    const resp = await fetch(`${API_BASE}/submit`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ owner, repo, slug, files, family, style, preview_text }) });
         const j = await resp.json();
         if (!resp.ok) throw new Error(j.error || JSON.stringify(j));
         status.textContent = '';

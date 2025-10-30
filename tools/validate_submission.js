@@ -1,4 +1,4 @@
-const fs = require('fs');
+app.use(cors({ origin: 'https://your-frontend-domain' }));const fs = require('fs');
 const path = require('path');
 
 function fail(msg) { console.error('VALIDATION FAILED:', msg); process.exit(1); }
