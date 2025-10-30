@@ -16,7 +16,7 @@ try {
 // --- Helper Functions ---
 
 // API base URL for server submissions. Set this to your Cloudflare Tunnel hostname.
-const API_BASE = 'https://api.xtgallery.lakafior.com';
+const API_BASE = 'https://apixtgallery.lakafior.com';
 
 
 function getFreetypeLoadFlags() {
