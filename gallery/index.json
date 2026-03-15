@@ -3284,6 +3284,21 @@
       "timestamp": "2026-02-12T12:22:28.347Z",
       "width": 16,
       "height": 20
+    },
+    {
+      "id": "zain-regular-2026-03-10t03-01-47-257z",
+      "family": "Zain",
+      "style": "Regular",
+      "preview_text": "hoje vou ao mercado comprar uns calções para a festa da joana lá na casa dela. pode ser que a festa ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-01-47-257z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-01-47-257z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-01-47-257z/font_12x19.bin",
+      "submitter": {
+        "name": "Zain"
+      },
+      "timestamp": "2026-03-10T03:01:47.262Z",
+      "width": 12,
+      "height": 19
     }
   ],
   "tree": [
@@ -7300,6 +7315,28 @@
                 "name": "Pupi"
               },
               "timestamp": "2026-02-12T12:22:28.347Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Zain",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "zain-regular-2026-03-10t03-01-47-257z",
+              "width": 12,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-01-47-257z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-01-47-257z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-01-47-257z/font_12x19.bin",
+              "submitter": {
+                "name": "Zain"
+              },
+              "timestamp": "2026-03-10T03:01:47.262Z"
             }
           ]
         }
