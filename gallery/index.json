@@ -3299,6 +3299,21 @@
       "timestamp": "2026-03-10T03:01:47.262Z",
       "width": 12,
       "height": 19
+    },
+    {
+      "id": "zain-regular-2026-03-10t03-08-27-673z",
+      "family": "Zain",
+      "style": "Regular",
+      "preview_text": "hoje vou ao mercado comprar uns calções para a festa da joana lá na casa dela. pode ser que a festa ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-08-27-673z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-08-27-673z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-08-27-673z/font_19x30.bin",
+      "submitter": {
+        "name": "Zain"
+      },
+      "timestamp": "2026-03-10T03:08:27.673Z",
+      "width": 19,
+      "height": 30
     }
   ],
   "tree": [
@@ -7337,6 +7352,18 @@
                 "name": "Zain"
               },
               "timestamp": "2026-03-10T03:01:47.262Z"
+            },
+            {
+              "id": "zain-regular-2026-03-10t03-08-27-673z",
+              "width": 19,
+              "height": 30,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-08-27-673z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-08-27-673z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/zain-regular-2026-03-10t03-08-27-673z/font_19x30.bin",
+              "submitter": {
+                "name": "Zain"
+              },
+              "timestamp": "2026-03-10T03:08:27.673Z"
             }
           ]
         }
