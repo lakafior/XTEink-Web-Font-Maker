@@ -1171,6 +1171,21 @@
       "height": 35
     },
     {
+      "id": "goudy-old-style-regular-regular-2026-03-10t21-23-28-122z",
+      "family": "Goudy Old Style Regular",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/goudy-old-style-regular-regular-2026-03-10t21-23-28-122z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/goudy-old-style-regular-regular-2026-03-10t21-23-28-122z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/goudy-old-style-regular-regular-2026-03-10t21-23-28-122z/font_18x25.bin",
+      "submitter": {
+        "name": "Goudy old style"
+      },
+      "timestamp": "2026-03-10T21:23:28.122Z",
+      "width": 18,
+      "height": 25
+    },
+    {
       "id": "hack-bold-2026-01-11t14-39-09-015z",
       "family": "Hack",
       "style": "Bold",
@@ -2399,6 +2414,21 @@
       "timestamp": "2025-12-18T06:45:23.086Z",
       "width": 14,
       "height": 22
+    },
+    {
+      "id": "nv-charter-regular-2026-03-12t13-45-02-515z",
+      "family": "NV Charter",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2026-03-12t13-45-02-515z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2026-03-12t13-45-02-515z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2026-03-12t13-45-02-515z/font_26x27.bin",
+      "submitter": {
+        "name": "Charter"
+      },
+      "timestamp": "2026-03-12T13:45:02.516Z",
+      "width": 26,
+      "height": 27
     },
     {
       "id": "nv-garamond-regular-2026-01-26t09-29-46-280z",
@@ -4769,6 +4799,28 @@
       ]
     },
     {
+      "family": "Goudy Old Style Regular",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "goudy-old-style-regular-regular-2026-03-10t21-23-28-122z",
+              "width": 18,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/goudy-old-style-regular-regular-2026-03-10t21-23-28-122z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/goudy-old-style-regular-regular-2026-03-10t21-23-28-122z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/goudy-old-style-regular-regular-2026-03-10t21-23-28-122z/font_18x25.bin",
+              "submitter": {
+                "name": "Goudy old style"
+              },
+              "timestamp": "2026-03-10T21:23:28.122Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Hack",
       "types": [
         {
@@ -6277,6 +6329,18 @@
                 "name": "Test"
               },
               "timestamp": "2025-12-18T06:45:23.086Z"
+            },
+            {
+              "id": "nv-charter-regular-2026-03-12t13-45-02-515z",
+              "width": 26,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2026-03-12t13-45-02-515z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2026-03-12t13-45-02-515z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2026-03-12t13-45-02-515z/font_26x27.bin",
+              "submitter": {
+                "name": "Charter"
+              },
+              "timestamp": "2026-03-12T13:45:02.516Z"
             }
           ]
         }
