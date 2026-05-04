@@ -2131,6 +2131,21 @@
       "height": 27
     },
     {
+      "id": "literata-regular-2026-04-01t16-01-37-888z",
+      "family": "Literata",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-04-01t16-01-37-888z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-04-01t16-01-37-888z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-04-01t16-01-37-888z/font_28x26.bin",
+      "submitter": {
+        "name": "hoang"
+      },
+      "timestamp": "2026-04-01T16:01:37.888Z",
+      "width": 28,
+      "height": 26
+    },
+    {
       "id": "literata-tt-display-extralight-2025-12-06t10-57-38-216z",
       "family": "Literata TT Display",
       "style": "Extralight",
@@ -3314,6 +3329,21 @@
       "timestamp": "2026-01-10T16:32:11.102Z",
       "width": 20,
       "height": 30
+    },
+    {
+      "id": "pkmn-rbygsc-regular-2026-04-01t22-51-26-702z",
+      "family": "PKMN RBYGSC",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pkmn-rbygsc-regular-2026-04-01t22-51-26-702z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pkmn-rbygsc-regular-2026-04-01t22-51-26-702z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pkmn-rbygsc-regular-2026-04-01t22-51-26-702z/font_31x35.bin",
+      "submitter": {
+        "name": "Ash Ketchup"
+      },
+      "timestamp": "2026-04-01T22:51:26.703Z",
+      "width": 31,
+      "height": 35
     },
     {
       "id": "playfair-display-regular-2025-12-02t02-21-33-630z",
@@ -6741,6 +6771,18 @@
                 "name": "jotaro kujo"
               },
               "timestamp": "2026-01-08T23:20:37.959Z"
+            },
+            {
+              "id": "literata-regular-2026-04-01t16-01-37-888z",
+              "width": 28,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-04-01t16-01-37-888z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-04-01t16-01-37-888z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-04-01t16-01-37-888z/font_28x26.bin",
+              "submitter": {
+                "name": "hoang"
+              },
+              "timestamp": "2026-04-01T16:01:37.888Z"
             }
           ]
         }
@@ -8179,6 +8221,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-01-10T16:32:11.102Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "PKMN RBYGSC",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "pkmn-rbygsc-regular-2026-04-01t22-51-26-702z",
+              "width": 31,
+              "height": 35,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pkmn-rbygsc-regular-2026-04-01t22-51-26-702z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pkmn-rbygsc-regular-2026-04-01t22-51-26-702z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pkmn-rbygsc-regular-2026-04-01t22-51-26-702z/font_31x35.bin",
+              "submitter": {
+                "name": "Ash Ketchup"
+              },
+              "timestamp": "2026-04-01T22:51:26.703Z"
             }
           ]
         }
