@@ -2866,6 +2866,21 @@
       "height": 25
     },
     {
+      "id": "noto-sans-thai-regular-2026-03-31t11-13-20-057z",
+      "family": "Noto Sans Thai",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-thai-regular-2026-03-31t11-13-20-057z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-thai-regular-2026-03-31t11-13-20-057z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-thai-regular-2026-03-31t11-13-20-057z/font_26x26.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-03-31T11:13:20.058Z",
+      "width": 26,
+      "height": 26
+    },
+    {
       "id": "noto-serif-regular-2026-02-07t01-42-29-056z",
       "family": "Noto Serif",
       "style": "Regular",
@@ -7679,6 +7694,28 @@
                 "name": "for German"
               },
               "timestamp": "2025-12-07T09:52:52.959Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Noto Sans Thai",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "noto-sans-thai-regular-2026-03-31t11-13-20-057z",
+              "width": 26,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-thai-regular-2026-03-31t11-13-20-057z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-thai-regular-2026-03-31t11-13-20-057z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-thai-regular-2026-03-31t11-13-20-057z/font_26x26.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-03-31T11:13:20.058Z"
             }
           ]
         }
