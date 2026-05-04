@@ -1261,6 +1261,21 @@
       "height": 30
     },
     {
+      "id": "eulyoo1945-regular-2026-04-02t10-30-27-773z",
+      "family": "Eulyoo1945",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/eulyoo1945-regular-2026-04-02t10-30-27-773z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/eulyoo1945-regular-2026-04-02t10-30-27-773z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/eulyoo1945-regular-2026-04-02t10-30-27-773z/font_27x24.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-02T10:30:27.774Z",
+      "width": 27,
+      "height": 24
+    },
+    {
       "id": "fantasque-sans-mono-bold-2025-11-14t19-35-30-463z",
       "family": "Fantasque Sans Mono",
       "style": "Bold",
@@ -1799,6 +1814,21 @@
       "timestamp": "2026-04-20T00:45:37.694Z",
       "width": 20,
       "height": 21
+    },
+    {
+      "id": "komatuna-p-regular-2026-04-02t02-13-25-041z",
+      "family": "Komatuna P",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/komatuna-p-regular-2026-04-02t02-13-25-041z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/komatuna-p-regular-2026-04-02t02-13-25-041z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/komatuna-p-regular-2026-04-02t02-13-25-041z/font_21x27.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-02T02:13:25.041Z",
+      "width": 21,
+      "height": 27
     },
     {
       "id": "kopubdotum-medium-2026-03-07t09-53-18-015z",
@@ -5606,6 +5636,28 @@
       ]
     },
     {
+      "family": "Eulyoo1945",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "eulyoo1945-regular-2026-04-02t10-30-27-773z",
+              "width": 27,
+              "height": 24,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/eulyoo1945-regular-2026-04-02t10-30-27-773z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/eulyoo1945-regular-2026-04-02t10-30-27-773z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/eulyoo1945-regular-2026-04-02t10-30-27-773z/font_27x24.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-02T10:30:27.774Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Fantasque Sans Mono",
       "types": [
         {
@@ -6337,6 +6389,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-04-20T00:45:37.694Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Komatuna P",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "komatuna-p-regular-2026-04-02t02-13-25-041z",
+              "width": 21,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/komatuna-p-regular-2026-04-02t02-13-25-041z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/komatuna-p-regular-2026-04-02t02-13-25-041z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/komatuna-p-regular-2026-04-02t02-13-25-041z/font_21x27.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-02T02:13:25.041Z"
             }
           ]
         }
