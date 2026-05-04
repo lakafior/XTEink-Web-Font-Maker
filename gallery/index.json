@@ -1381,6 +1381,21 @@
       "height": 25
     },
     {
+      "id": "fira-mono-regular-2026-03-21t01-49-20-279z",
+      "family": "Fira Mono",
+      "style": "Regular",
+      "preview_text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\n\nLorem ipsum dolor sit... quis nostrud exercitat...",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fira-mono-regular-2026-03-21t01-49-20-279z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fira-mono-regular-2026-03-21t01-49-20-279z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fira-mono-regular-2026-03-21t01-49-20-279z/font_19x32.bin",
+      "submitter": {
+        "name": "Dave L."
+      },
+      "timestamp": "2026-03-21T01:49:20.279Z",
+      "width": 19,
+      "height": 32
+    },
+    {
       "id": "frank-ruhl-libre-regular-2026-01-15t10-22-33-512z",
       "family": "Frank Ruhl Libre",
       "style": "Regular",
@@ -6036,6 +6051,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-04-15T21:41:17.468Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Fira Mono",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "fira-mono-regular-2026-03-21t01-49-20-279z",
+              "width": 19,
+              "height": 32,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fira-mono-regular-2026-03-21t01-49-20-279z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fira-mono-regular-2026-03-21t01-49-20-279z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fira-mono-regular-2026-03-21t01-49-20-279z/font_19x32.bin",
+              "submitter": {
+                "name": "Dave L."
+              },
+              "timestamp": "2026-03-21T01:49:20.279Z"
             }
           ]
         }
