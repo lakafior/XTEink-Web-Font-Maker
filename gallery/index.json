@@ -1636,6 +1636,21 @@
       "height": 39
     },
     {
+      "id": "karla-regular-2026-04-15t17-34-03-861z",
+      "family": "Karla",
+      "style": "Regular",
+      "preview_text": "Ogni individuo ha diritto ad un ordine sociale e internazionale nel quale i diritti e le libertà enunciati in questa Dichiarazione possano essere pienamente realizzati. Nulla nella presente Dichiarazione può essere interpretato nel senso di implicare un diritto di un qualsiasi Stato, gruppo o persona di esercitare un'attività o di compiere un atto mirante alla distruzione di alcuno dei diritti e delle libertà in essa enunciati.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/karla-regular-2026-04-15t17-34-03-861z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/karla-regular-2026-04-15t17-34-03-861z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/karla-regular-2026-04-15t17-34-03-861z/font_28x30.bin",
+      "submitter": {
+        "name": "Italiano"
+      },
+      "timestamp": "2026-04-15T17:34:03.861Z",
+      "width": 28,
+      "height": 30
+    },
+    {
       "id": "karu-medium-2025-11-14t12-55-11-272z",
       "family": "Karu",
       "style": "Medium",
@@ -3631,6 +3646,21 @@
       "height": 23
     },
     {
+      "id": "ubuntu-italic-2026-04-14t16-39-04-974z",
+      "family": "Ubuntu",
+      "style": "Italic",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ubuntu-italic-2026-04-14t16-39-04-974z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ubuntu-italic-2026-04-14t16-39-04-974z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ubuntu-italic-2026-04-14t16-39-04-974z/font_25x26.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-14T16:39:04.974Z",
+      "width": 25,
+      "height": 26
+    },
+    {
       "id": "ubuntu-sans-light-2026-02-04t09-31-08-438z",
       "family": "Ubuntu Sans",
       "style": "Light",
@@ -3732,6 +3762,21 @@
         "name": "Verdana"
       },
       "timestamp": "2025-11-14T14:30:10.801Z",
+      "width": 26,
+      "height": 28
+    },
+    {
+      "id": "verdana-regular-2026-04-09t21-15-48-831z",
+      "family": "Verdana",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.“ℓ,” “I,” “V,” “λ,” “+,” and “♪♫",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/verdana-regular-2026-04-09t21-15-48-831z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/verdana-regular-2026-04-09t21-15-48-831z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/verdana-regular-2026-04-09t21-15-48-831z/font_26x28.bin",
+      "submitter": {
+        "name": "The_Nugget_master"
+      },
+      "timestamp": "2026-04-09T21:15:48.831Z",
       "width": 26,
       "height": 28
     },
@@ -5875,6 +5920,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:49:16.811Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Karla",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "karla-regular-2026-04-15t17-34-03-861z",
+              "width": 28,
+              "height": 30,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/karla-regular-2026-04-15t17-34-03-861z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/karla-regular-2026-04-15t17-34-03-861z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/karla-regular-2026-04-15t17-34-03-861z/font_28x30.bin",
+              "submitter": {
+                "name": "Italiano"
+              },
+              "timestamp": "2026-04-15T17:34:03.861Z"
             }
           ]
         }
@@ -8282,6 +8349,28 @@
       ]
     },
     {
+      "family": "Ubuntu",
+      "types": [
+        {
+          "style": "Italic",
+          "sizes": [
+            {
+              "id": "ubuntu-italic-2026-04-14t16-39-04-974z",
+              "width": 25,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ubuntu-italic-2026-04-14t16-39-04-974z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ubuntu-italic-2026-04-14t16-39-04-974z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ubuntu-italic-2026-04-14t16-39-04-974z/font_25x26.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-14T16:39:04.974Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Ubuntu Sans",
       "types": [
         {
@@ -8420,6 +8509,18 @@
                 "name": "Verdana"
               },
               "timestamp": "2025-11-14T14:30:10.801Z"
+            },
+            {
+              "id": "verdana-regular-2026-04-09t21-15-48-831z",
+              "width": 26,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/verdana-regular-2026-04-09t21-15-48-831z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/verdana-regular-2026-04-09t21-15-48-831z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/verdana-regular-2026-04-09t21-15-48-831z/font_26x28.bin",
+              "submitter": {
+                "name": "The_Nugget_master"
+              },
+              "timestamp": "2026-04-09T21:15:48.831Z"
             },
             {
               "id": "verdana-regular-2026-04-16t02-37-02-198z",
