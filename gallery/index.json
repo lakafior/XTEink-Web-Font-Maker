@@ -46,6 +46,21 @@
       "height": 14
     },
     {
+      "id": "adobe-caslon-pro-regular-2026-04-26t23-18-43-725z",
+      "family": "Adobe Caslon Pro",
+      "style": "Regular",
+      "preview_text": "Adding custom fonts, converting epub files to XTC, flashing community firmware like Crosspoint, showcasing accessories… and most importantly, installing your screen protector without bubbles! This video is full of stuff to know about using the Xteink X4 pocket e-ink ereader which you won't find in the manual. ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/adobe-caslon-pro-regular-2026-04-26t23-18-43-725z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/adobe-caslon-pro-regular-2026-04-26t23-18-43-725z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/adobe-caslon-pro-regular-2026-04-26t23-18-43-725z/font_15x25.bin",
+      "submitter": {
+        "name": "peaches"
+      },
+      "timestamp": "2026-04-26T23:18:43.725Z",
+      "width": 15,
+      "height": 25
+    },
+    {
       "id": "alef-regular-2025-12-18t14-09-41-749z",
       "family": "Alef",
       "style": "Regular",
@@ -449,6 +464,36 @@
       "timestamp": "2025-11-22T20:15:48.203Z",
       "width": 10,
       "height": 18
+    },
+    {
+      "id": "bitter-pro-regular-2026-04-27t18-15-22-288z",
+      "family": "Bitter Pro",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-pro-regular-2026-04-27t18-15-22-288z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-pro-regular-2026-04-27t18-15-22-288z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-pro-regular-2026-04-27t18-15-22-288z/font_29x26.bin",
+      "submitter": {
+        "name": "Hashbrown"
+      },
+      "timestamp": "2026-04-27T18:15:22.288Z",
+      "width": 29,
+      "height": 26
+    },
+    {
+      "id": "bokerlam-regular-2026-04-23t10-28-05-700z",
+      "family": "Bokerlam",
+      "style": "Regular",
+      "preview_text": "Hãy gửi phông chữ của bạn vào thư viện. Sau khi được duyệt, phông chữ sẽ được hiển thị trong",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bokerlam-regular-2026-04-23t10-28-05-700z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bokerlam-regular-2026-04-23t10-28-05-700z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bokerlam-regular-2026-04-23t10-28-05-700z/font_13x23.bin",
+      "submitter": {
+        "name": "Bokerlam"
+      },
+      "timestamp": "2026-04-23T10:28:05.700Z",
+      "width": 13,
+      "height": 23
     },
     {
       "id": "bookerly-bold-2025-11-14t09-38-31-352z",
@@ -901,6 +946,21 @@
       "height": 29
     },
     {
+      "id": "cormorant-garamond-medium-2026-04-26t23-13-13-144z",
+      "family": "Cormorant Garamond",
+      "style": "Medium",
+      "preview_text": "\nThere you are I've been looking for you",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2026-04-26t23-13-13-144z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2026-04-26t23-13-13-144z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2026-04-26t23-13-13-144z/font_16x25.bin",
+      "submitter": {
+        "name": "peaches"
+      },
+      "timestamp": "2026-04-26T23:13:13.145Z",
+      "width": 16,
+      "height": 25
+    },
+    {
       "id": "courier-new-regular-2026-02-15t19-50-17-100z",
       "family": "Courier New",
       "style": "Regular",
@@ -959,6 +1019,21 @@
       "timestamp": "2025-11-17T11:16:35.849Z",
       "width": 14,
       "height": 31
+    },
+    {
+      "id": "dejavu-sans-mono-book-2026-04-27t17-09-28-310z",
+      "family": "DejaVu Sans Mono",
+      "style": "Book",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dejavu-sans-mono-book-2026-04-27t17-09-28-310z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dejavu-sans-mono-book-2026-04-27t17-09-28-310z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dejavu-sans-mono-book-2026-04-27t17-09-28-310z/font_13x23.bin",
+      "submitter": {
+        "name": "JJ"
+      },
+      "timestamp": "2026-04-27T17:09:28.310Z",
+      "width": 13,
+      "height": 23
     },
     {
       "id": "departure-mono-regular-2026-02-07t16-59-13-272z",
@@ -1216,6 +1291,21 @@
       "height": 32
     },
     {
+      "id": "handani-regular-2026-04-21t14-02-44-803z",
+      "family": "Handani",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/handani-regular-2026-04-21t14-02-44-803z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/handani-regular-2026-04-21t14-02-44-803z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/handani-regular-2026-04-21t14-02-44-803z/font_18x19.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-21T14:02:44.804Z",
+      "width": 18,
+      "height": 19
+    },
+    {
       "id": "headlandone-regular-2025-11-16t02-13-45-398z",
       "family": "HeadlandOne",
       "style": "Regular",
@@ -1229,6 +1319,21 @@
       "timestamp": "2025-11-16T02:13:45.399Z",
       "width": 16,
       "height": 24
+    },
+    {
+      "id": "heebo-medium-2026-05-01t21-39-56-654z",
+      "family": "Heebo",
+      "style": "Medium",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/heebo-medium-2026-05-01t21-39-56-654z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/heebo-medium-2026-05-01t21-39-56-654z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/heebo-medium-2026-05-01t21-39-56-654z/font_23x27.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-05-01T21:39:56.655Z",
+      "width": 23,
+      "height": 27
     },
     {
       "id": "helvetica-compressed-regular-2025-11-23t15-02-28-488z",
@@ -1349,6 +1454,21 @@
       "timestamp": "2025-11-15T09:05:53.652Z",
       "width": 17,
       "height": 29
+    },
+    {
+      "id": "jetbrains-mono-regular-2026-05-02t16-17-45-128z",
+      "family": "JetBrains Mono",
+      "style": "Regular",
+      "preview_text": "The origins of the IJN date back to early interactions with nations on the Asian continent, beginning in the early feudal period and reaching a peak of activity during the 16th and 17th centuries at a time of cultural exchange with European powers during the Age of Discovery. After two centuries of stagnation during the country's ensuing seclusion policy under the shōgun of the Edo period, Japan's navy was comparatively antiquated when the country was forced open to trade by American interventio",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jetbrains-mono-regular-2026-05-02t16-17-45-128z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jetbrains-mono-regular-2026-05-02t16-17-45-128z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jetbrains-mono-regular-2026-05-02t16-17-45-128z/font_15x36.bin",
+      "submitter": {
+        "name": "JetBrainsMono1"
+      },
+      "timestamp": "2026-05-02T16:17:45.128Z",
+      "width": 15,
+      "height": 36
     },
     {
       "id": "jetbrainsmononl-nfm-medium-2025-12-14t20-04-53-728z",
@@ -1754,6 +1874,21 @@
       "timestamp": "2025-12-11T19:35:40.719Z",
       "width": 28,
       "height": 26
+    },
+    {
+      "id": "lora-regular-2026-04-26t18-36-31-937z",
+      "family": "Lora",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lora-regular-2026-04-26t18-36-31-937z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lora-regular-2026-04-26t18-36-31-937z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lora-regular-2026-04-26t18-36-31-937z/font_20x19.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-26T18:36:31.940Z",
+      "width": 20,
+      "height": 19
     },
     {
       "id": "lucida-sans-demibold-2025-11-22t13-06-17-643z",
@@ -2206,6 +2341,21 @@
       "height": 16
     },
     {
+      "id": "montserrat-extralight-2026-04-23t03-10-17-578z",
+      "family": "Montserrat",
+      "style": "ExtraLight",
+      "preview_text": "The morning light filtered through the curtains as she reached for her coffee, still warm. \n\nOutside, the city was already moving — buses groaning at corners, pigeons scattering from ledges, a vendor arranging fruit with practiced hands. She had lived here for seven years and still found herself surprised by small things: the way rain smelled on old pavement, or how a stranger's laugh could cut through noise and make everything feel, briefly, less lonely.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/montserrat-extralight-2026-04-23t03-10-17-578z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/montserrat-extralight-2026-04-23t03-10-17-578z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/montserrat-extralight-2026-04-23t03-10-17-578z/font_17x23.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-23T03:10:17.581Z",
+      "width": 17,
+      "height": 23
+    },
+    {
       "id": "mx437-dos-v-re-ank24-regular-2026-03-08t15-59-14-746z",
       "family": "Mx437 DOS/V re. ANK24",
       "style": "Regular",
@@ -2249,6 +2399,36 @@
       "timestamp": "2026-02-06T12:48:43.249Z",
       "width": 18,
       "height": 22
+    },
+    {
+      "id": "nanumsquareroundotf-bold-2026-04-26t05-00-08-506z",
+      "family": "NanumSquareRoundOTF",
+      "style": "Bold",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-bold-2026-04-26t05-00-08-506z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-bold-2026-04-26t05-00-08-506z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-bold-2026-04-26t05-00-08-506z/font_25x25.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-26T05:00:08.507Z",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "nanumsquareroundotf-regular-2026-04-26t05-19-24-691z",
+      "family": "NanumSquareRoundOTF",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.가나다라마바사아자차카타파하",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-regular-2026-04-26t05-19-24-691z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-regular-2026-04-26t05-19-24-691z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-regular-2026-04-26t05-19-24-691z/font_25x26.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-04-26T05:19:24.692Z",
+      "width": 25,
+      "height": 26
     },
     {
       "id": "noto-sans-condensed-bold-2025-11-18t00-11-47-261z",
@@ -2626,6 +2806,21 @@
       "height": 36
     },
     {
+      "id": "opendyslexic-regular-2026-04-22t10-22-32-241z",
+      "family": "OpenDyslexic",
+      "style": "Regular",
+      "preview_text": "Questa è la prova di un font per vedere se si legge bene, questa grandezza forse non è esatta, sarà da mettere a posto. Un giorno tutti pensarono. Che la festa si sarebbe tenuta nel parco della città? Mentre i fuochi d'artificio facevano brillare il cielo. I ragazzini giocavano con le corde e i palloni. Mentre gli adulti si affaccendavano a preparare i banchetti.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2026-04-22t10-22-32-241z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2026-04-22t10-22-32-241z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2026-04-22t10-22-32-241z/font_19x38.bin",
+      "submitter": {
+        "name": "Opendis19x38"
+      },
+      "timestamp": "2026-04-22T10:22:32.245Z",
+      "width": 19,
+      "height": 38
+    },
+    {
       "id": "opendyslexic3-regular-2025-12-13t21-20-35-823z",
       "family": "OpenDyslexic3",
       "style": "Regular",
@@ -2969,6 +3164,21 @@
       "timestamp": "2026-02-02T18:37:58.583Z",
       "width": 19,
       "height": 27
+    },
+    {
+      "id": "sn-pro-regular-2026-04-22t09-43-51-056z",
+      "family": "SN Pro",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sn-pro-regular-2026-04-22t09-43-51-056z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sn-pro-regular-2026-04-22t09-43-51-056z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sn-pro-regular-2026-04-22t09-43-51-056z/font_17x26.bin",
+      "submitter": {
+        "name": "brohan"
+      },
+      "timestamp": "2026-04-22T09:43:51.056Z",
+      "width": 17,
+      "height": 26
     },
     {
       "id": "source-code-pro-regular-2026-02-15t22-06-13-160z",
@@ -3448,6 +3658,28 @@
                 "name": "deutsch"
               },
               "timestamp": "2025-12-19T01:21:21.780Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Adobe Caslon Pro",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "adobe-caslon-pro-regular-2026-04-26t23-18-43-725z",
+              "width": 15,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/adobe-caslon-pro-regular-2026-04-26t23-18-43-725z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/adobe-caslon-pro-regular-2026-04-26t23-18-43-725z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/adobe-caslon-pro-regular-2026-04-26t23-18-43-725z/font_15x25.bin",
+              "submitter": {
+                "name": "peaches"
+              },
+              "timestamp": "2026-04-26T23:18:43.725Z"
             }
           ]
         }
@@ -3973,6 +4205,50 @@
       ]
     },
     {
+      "family": "Bitter Pro",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "bitter-pro-regular-2026-04-27t18-15-22-288z",
+              "width": 29,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-pro-regular-2026-04-27t18-15-22-288z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-pro-regular-2026-04-27t18-15-22-288z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-pro-regular-2026-04-27t18-15-22-288z/font_29x26.bin",
+              "submitter": {
+                "name": "Hashbrown"
+              },
+              "timestamp": "2026-04-27T18:15:22.288Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Bokerlam",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "bokerlam-regular-2026-04-23t10-28-05-700z",
+              "width": 13,
+              "height": 23,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bokerlam-regular-2026-04-23t10-28-05-700z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bokerlam-regular-2026-04-23t10-28-05-700z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bokerlam-regular-2026-04-23t10-28-05-700z/font_13x23.bin",
+              "submitter": {
+                "name": "Bokerlam"
+              },
+              "timestamp": "2026-04-23T10:28:05.700Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Bookerly",
       "types": [
         {
@@ -4422,6 +4698,18 @@
                 "name": "Garamond Coromant 35"
               },
               "timestamp": "2025-11-17T11:49:49.228Z"
+            },
+            {
+              "id": "cormorant-garamond-medium-2026-04-26t23-13-13-144z",
+              "width": 16,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2026-04-26t23-13-13-144z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2026-04-26t23-13-13-144z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2026-04-26t23-13-13-144z/font_16x25.bin",
+              "submitter": {
+                "name": "peaches"
+              },
+              "timestamp": "2026-04-26T23:13:13.145Z"
             }
           ]
         }
@@ -4500,6 +4788,28 @@
                 "name": "InternationalEye2811"
               },
               "timestamp": "2025-11-17T11:16:35.849Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "DejaVu Sans Mono",
+      "types": [
+        {
+          "style": "Book",
+          "sizes": [
+            {
+              "id": "dejavu-sans-mono-book-2026-04-27t17-09-28-310z",
+              "width": 13,
+              "height": 23,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dejavu-sans-mono-book-2026-04-27t17-09-28-310z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dejavu-sans-mono-book-2026-04-27t17-09-28-310z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dejavu-sans-mono-book-2026-04-27t17-09-28-310z/font_13x23.bin",
+              "submitter": {
+                "name": "JJ"
+              },
+              "timestamp": "2026-04-27T17:09:28.310Z"
             }
           ]
         }
@@ -4860,6 +5170,28 @@
       ]
     },
     {
+      "family": "Handani",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "handani-regular-2026-04-21t14-02-44-803z",
+              "width": 18,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/handani-regular-2026-04-21t14-02-44-803z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/handani-regular-2026-04-21t14-02-44-803z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/handani-regular-2026-04-21t14-02-44-803z/font_18x19.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-21T14:02:44.804Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "HeadlandOne",
       "types": [
         {
@@ -4876,6 +5208,28 @@
                 "name": "Arn0"
               },
               "timestamp": "2025-11-16T02:13:45.399Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Heebo",
+      "types": [
+        {
+          "style": "Medium",
+          "sizes": [
+            {
+              "id": "heebo-medium-2026-05-01t21-39-56-654z",
+              "width": 23,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/heebo-medium-2026-05-01t21-39-56-654z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/heebo-medium-2026-05-01t21-39-56-654z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/heebo-medium-2026-05-01t21-39-56-654z/font_23x27.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-05-01T21:39:56.655Z"
             }
           ]
         }
@@ -5037,6 +5391,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-15T09:05:53.652Z"
+            },
+            {
+              "id": "jetbrains-mono-regular-2026-05-02t16-17-45-128z",
+              "width": 15,
+              "height": 36,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jetbrains-mono-regular-2026-05-02t16-17-45-128z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jetbrains-mono-regular-2026-05-02t16-17-45-128z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jetbrains-mono-regular-2026-05-02t16-17-45-128z/font_15x36.bin",
+              "submitter": {
+                "name": "JetBrainsMono1"
+              },
+              "timestamp": "2026-05-02T16:17:45.128Z"
             }
           ]
         }
@@ -5511,6 +5877,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-11T19:35:40.719Z"
+            },
+            {
+              "id": "lora-regular-2026-04-26t18-36-31-937z",
+              "width": 20,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lora-regular-2026-04-26t18-36-31-937z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lora-regular-2026-04-26t18-36-31-937z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lora-regular-2026-04-26t18-36-31-937z/font_20x19.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-26T18:36:31.940Z"
             }
           ]
         }
@@ -6067,6 +6445,28 @@
       ]
     },
     {
+      "family": "Montserrat",
+      "types": [
+        {
+          "style": "ExtraLight",
+          "sizes": [
+            {
+              "id": "montserrat-extralight-2026-04-23t03-10-17-578z",
+              "width": 17,
+              "height": 23,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/montserrat-extralight-2026-04-23t03-10-17-578z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/montserrat-extralight-2026-04-23t03-10-17-578z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/montserrat-extralight-2026-04-23t03-10-17-578z/font_17x23.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-23T03:10:17.581Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Mx437 DOS/V re. ANK24",
       "types": [
         {
@@ -6127,6 +6527,45 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-02-06T12:48:43.249Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "NanumSquareRoundOTF",
+      "types": [
+        {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "nanumsquareroundotf-bold-2026-04-26t05-00-08-506z",
+              "width": 25,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-bold-2026-04-26t05-00-08-506z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-bold-2026-04-26t05-00-08-506z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-bold-2026-04-26t05-00-08-506z/font_25x25.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-26T05:00:08.507Z"
+            }
+          ]
+        },
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "nanumsquareroundotf-regular-2026-04-26t05-19-24-691z",
+              "width": 25,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-regular-2026-04-26t05-19-24-691z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-regular-2026-04-26t05-19-24-691z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nanumsquareroundotf-regular-2026-04-26t05-19-24-691z/font_25x26.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-04-26T05:19:24.692Z"
             }
           ]
         }
@@ -6552,6 +6991,18 @@
                 "name": "Saw"
               },
               "timestamp": "2026-02-06T08:01:45.561Z"
+            },
+            {
+              "id": "opendyslexic-regular-2026-04-22t10-22-32-241z",
+              "width": 19,
+              "height": 38,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2026-04-22t10-22-32-241z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2026-04-22t10-22-32-241z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2026-04-22t10-22-32-241z/font_19x38.bin",
+              "submitter": {
+                "name": "Opendis19x38"
+              },
+              "timestamp": "2026-04-22T10:22:32.245Z"
             }
           ]
         }
@@ -7008,6 +7459,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-02-02T18:37:58.583Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "SN Pro",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "sn-pro-regular-2026-04-22t09-43-51-056z",
+              "width": 17,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sn-pro-regular-2026-04-22t09-43-51-056z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sn-pro-regular-2026-04-22t09-43-51-056z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sn-pro-regular-2026-04-22t09-43-51-056z/font_17x26.bin",
+              "submitter": {
+                "name": "brohan"
+              },
+              "timestamp": "2026-04-22T09:43:51.056Z"
             }
           ]
         }
