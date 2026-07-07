@@ -1351,6 +1351,36 @@
       "height": 27
     },
     {
+      "id": "dreamhansanscn-w10-2026-06-07t09-53-36-370z",
+      "family": "DreamHanSansCN",
+      "style": "W10",
+      "preview_text": "",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-53-36-370z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-53-36-370z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-53-36-370z/font_14x15.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-06-07T09:53:36.370Z",
+      "width": 14,
+      "height": 15
+    },
+    {
+      "id": "dreamhansanscn-w10-2026-06-07t09-59-15-739z",
+      "family": "DreamHanSansCN",
+      "style": "W10",
+      "preview_text": "",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-59-15-739z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-59-15-739z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-59-15-739z/font_21x22.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-06-07T09:59:15.739Z",
+      "width": 21,
+      "height": 22
+    },
+    {
       "id": "eb-garamond-regular-2025-12-16t14-16-49-004z",
       "family": "EB Garamond",
       "style": "Regular",
@@ -4501,6 +4531,21 @@
       "height": 28
     },
     {
+      "id": "terminal-f4-regular-2026-06-10t23-40-30-963z",
+      "family": "Terminal F4",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminal-f4-regular-2026-06-10t23-40-30-963z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminal-f4-regular-2026-06-10t23-40-30-963z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminal-f4-regular-2026-06-10t23-40-30-963z/font_14x24.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-06-10T23:40:30.964Z",
+      "width": 14,
+      "height": 24
+    },
+    {
       "id": "terminus-bold-2025-11-30t06-38-36-784z",
       "family": "Terminus",
       "style": "Bold",
@@ -6497,6 +6542,40 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-09T02:35:38.433Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "DreamHanSansCN",
+      "types": [
+        {
+          "style": "W10",
+          "sizes": [
+            {
+              "id": "dreamhansanscn-w10-2026-06-07t09-53-36-370z",
+              "width": 14,
+              "height": 15,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-53-36-370z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-53-36-370z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-53-36-370z/font_14x15.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-06-07T09:53:36.370Z"
+            },
+            {
+              "id": "dreamhansanscn-w10-2026-06-07t09-59-15-739z",
+              "width": 21,
+              "height": 22,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-59-15-739z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-59-15-739z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/dreamhansanscn-w10-2026-06-07t09-59-15-739z/font_21x22.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-06-07T09:59:15.739Z"
             }
           ]
         }
@@ -10337,6 +10416,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-02-17T12:44:41.728Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Terminal F4",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "terminal-f4-regular-2026-06-10t23-40-30-963z",
+              "width": 14,
+              "height": 24,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminal-f4-regular-2026-06-10t23-40-30-963z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminal-f4-regular-2026-06-10t23-40-30-963z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminal-f4-regular-2026-06-10t23-40-30-963z/font_14x24.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-06-10T23:40:30.964Z"
             }
           ]
         }
