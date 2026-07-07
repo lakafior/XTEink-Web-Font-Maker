@@ -2446,6 +2446,21 @@
       "height": 26
     },
     {
+      "id": "literata-regular-2026-06-11t07-11-34-715z",
+      "family": "Literata",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-06-11t07-11-34-715z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-06-11t07-11-34-715z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-06-11t07-11-34-715z/font_29x27.bin",
+      "submitter": {
+        "name": "Literata"
+      },
+      "timestamp": "2026-06-11T07:11:34.720Z",
+      "width": 29,
+      "height": 27
+    },
+    {
       "id": "literata-regular-2026-06-17t15-58-59-429z",
       "family": "Literata",
       "style": "Regular",
@@ -3869,6 +3884,21 @@
       "timestamp": "2026-02-13T06:54:58.796Z",
       "width": 26,
       "height": 25
+    },
+    {
+      "id": "pixel-it-regular-2026-06-13t10-41-39-816z",
+      "family": "Pixel It",
+      "style": "Regular",
+      "preview_text": "The time that my journey takes is long and the way of it long.\nI came out on the chariot of the first gleam of light, and pursued my\nvoyage through the wildernesses of worlds leaving my track on many a star and planet.\nIt is the most distant course that comes nearest to thyself,\nand that training is the most intricate which leads to the utter simplicity of a tune.\nThe traveler has to knock at every alien door to come to his own,\nand one has to wander through all the outer worlds to reach the the",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-it-regular-2026-06-13t10-41-39-816z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-it-regular-2026-06-13t10-41-39-816z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-it-regular-2026-06-13t10-41-39-816z/font_20x28.bin",
+      "submitter": {
+        "name": "Now In Time"
+      },
+      "timestamp": "2026-06-13T10:41:39.816Z",
+      "width": 20,
+      "height": 28
     },
     {
       "id": "pixel-it-regular-2026-06-13t10-46-41-246z",
@@ -7845,6 +7875,18 @@
               "timestamp": "2026-04-01T16:01:37.888Z"
             },
             {
+              "id": "literata-regular-2026-06-11t07-11-34-715z",
+              "width": 29,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-06-11t07-11-34-715z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-06-11t07-11-34-715z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-06-11t07-11-34-715z/font_29x27.bin",
+              "submitter": {
+                "name": "Literata"
+              },
+              "timestamp": "2026-06-11T07:11:34.720Z"
+            },
+            {
               "id": "literata-regular-2026-06-17t15-58-59-429z",
               "width": 19,
               "height": 17,
@@ -9544,6 +9586,18 @@
         {
           "style": "Regular",
           "sizes": [
+            {
+              "id": "pixel-it-regular-2026-06-13t10-41-39-816z",
+              "width": 20,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-it-regular-2026-06-13t10-41-39-816z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-it-regular-2026-06-13t10-41-39-816z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-it-regular-2026-06-13t10-41-39-816z/font_20x28.bin",
+              "submitter": {
+                "name": "Now In Time"
+              },
+              "timestamp": "2026-06-13T10:41:39.816Z"
+            },
             {
               "id": "pixel-it-regular-2026-06-13t10-46-41-246z",
               "width": 20,
