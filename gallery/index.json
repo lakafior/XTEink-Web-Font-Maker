@@ -31,6 +31,21 @@
       "height": 27
     },
     {
+      "id": "a2z-5-medium-2026-05-08t15-05-17-776z",
+      "family": "A2Z",
+      "style": "5 Medium",
+      "preview_text": "엑스팅크 이북을 위한 폰트 변환 작업중입니다. 폰트 파일을 업로드후 옵션을 조정합니다. 미리보기를 통해 설정한 내용을 확인, 원하는 스타일로 수정한 뒤 최종 파일을 다운로드합니다. 에스디카드에 파일을 복사하여 기기에서 독서용 폰트로 설정할 수 있습니다. 엑스팅크 이북을 위한 폰트 변환 작업중입니다. 폰트 파일을 업로드후 옵션을 조정합니다. 미리보기를 통해 설정한 내용을 확인, 원하는 스타일로 수정한 뒤 최종 파일을 다운로드합니다. 에스디카드에 파일을 복사하여 기기에서 독서용 폰트로 설정할 수 있습니다. 엑스팅크 이북을 위한 폰트 변환 작업중입니다. 폰트 파일을 업로드후 옵션을 조정합니다. 미리보기를 통해 설정한 내용을 확인, 원하는 스타일로 수정한 뒤 최종 파일을 다운로드합니다. 에스디카드에 파일을 복사하여 기기에서 독서용 폰트로 설정할 수 있습니다.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/a2z-5-medium-2026-05-08t15-05-17-776z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/a2z-5-medium-2026-05-08t15-05-17-776z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/a2z-5-medium-2026-05-08t15-05-17-776z/font_31x45.bin",
+      "submitter": {
+        "name": "ATZ5m34"
+      },
+      "timestamp": "2026-05-08T15:05:17.777Z",
+      "width": 31,
+      "height": 45
+    },
+    {
       "id": "aaplainlettersm-regular-2026-01-29t07-39-54-827z",
       "family": "AaPlainLettersM",
       "style": "Regular",
@@ -586,6 +601,21 @@
       "height": 20
     },
     {
+      "id": "bitter-bold-2026-05-08t20-04-16-430z",
+      "family": "Bitter",
+      "style": "Bold",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-bold-2026-05-08t20-04-16-430z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-bold-2026-05-08t20-04-16-430z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-bold-2026-05-08t20-04-16-430z/font_29x28.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-05-08T20:04:16.430Z",
+      "width": 29,
+      "height": 28
+    },
+    {
       "id": "bitter-extrabold-2026-05-14t04-49-30-505z",
       "family": "Bitter",
       "style": "ExtraBold",
@@ -856,6 +886,21 @@
       "height": 21
     },
     {
+      "id": "bookerly-light-2026-05-08t09-15-46-579z",
+      "family": "Bookerly",
+      "style": "Light",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-05-08t09-15-46-579z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-05-08t09-15-46-579z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-05-08t09-15-46-579z/font_19x18.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-05-08T09:15:46.579Z",
+      "width": 19,
+      "height": 18
+    },
+    {
       "id": "bookerly-light-2026-05-18t02-54-30-671z",
       "family": "Bookerly",
       "style": "Light",
@@ -1049,6 +1094,21 @@
       "timestamp": "2026-03-07T05:56:49.912Z",
       "width": 29,
       "height": 28
+    },
+    {
+      "id": "bookerly-regular-2026-05-08t09-13-44-565z",
+      "family": "Bookerly",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2026-05-08t09-13-44-565z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2026-05-08t09-13-44-565z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2026-05-08t09-13-44-565z/font_20x19.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-05-08T09:13:44.566Z",
+      "width": 20,
+      "height": 19
     },
     {
       "id": "bookerly-regular-2026-06-20t22-15-50-321z",
@@ -1814,6 +1874,36 @@
       "timestamp": "2026-03-21T01:49:20.279Z",
       "width": 19,
       "height": 32
+    },
+    {
+      "id": "forgetica-regular-2026-05-11t00-10-40-210z",
+      "family": "Forgetica",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-10-40-210z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-10-40-210z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-10-40-210z/font_28x28.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-05-11T00:10:40.210Z",
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "forgetica-regular-2026-05-11t00-14-16-391z",
+      "family": "Forgetica",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-14-16-391z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-14-16-391z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-14-16-391z/font_28x28.bin",
+      "submitter": {
+        "name": "Anonymus"
+      },
+      "timestamp": "2026-05-11T00:14:16.391Z",
+      "width": 28,
+      "height": 28
     },
     {
       "id": "frank-ruhl-libre-regular-2026-01-15t10-22-33-512z",
@@ -3841,6 +3931,21 @@
       "height": 24
     },
     {
+      "id": "noto-serif-regular-2026-05-12t17-32-25-486z",
+      "family": "Noto Serif",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-serif-regular-2026-05-12t17-32-25-486z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-serif-regular-2026-05-12t17-32-25-486z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-serif-regular-2026-05-12t17-32-25-486z/font_37x34.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-05-12T17:32:25.486Z",
+      "width": 37,
+      "height": 34
+    },
+    {
       "id": "noto-serif-tibetan-regular-2026-03-25t10-20-59-018z",
       "family": "Noto Serif Tibetan",
       "style": "Regular",
@@ -5736,6 +5841,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-04-06T14:30:16.468Z"
+            },
+            {
+              "id": "a2z-5-medium-2026-05-08t15-05-17-776z",
+              "width": 31,
+              "height": 45,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/a2z-5-medium-2026-05-08t15-05-17-776z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/a2z-5-medium-2026-05-08t15-05-17-776z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/a2z-5-medium-2026-05-08t15-05-17-776z/font_31x45.bin",
+              "submitter": {
+                "name": "ATZ5m34"
+              },
+              "timestamp": "2026-05-08T15:05:17.777Z"
             }
           ]
         }
@@ -6429,6 +6546,23 @@
       "family": "Bitter",
       "types": [
         {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "bitter-bold-2026-05-08t20-04-16-430z",
+              "width": 29,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-bold-2026-05-08t20-04-16-430z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-bold-2026-05-08t20-04-16-430z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-bold-2026-05-08t20-04-16-430z/font_29x28.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-05-08T20:04:16.430Z"
+            }
+          ]
+        },
+        {
           "style": "ExtraBold",
           "sizes": [
             {
@@ -6706,6 +6840,18 @@
               "timestamp": "2026-02-17T13:06:02.323Z"
             },
             {
+              "id": "bookerly-light-2026-05-08t09-15-46-579z",
+              "width": 19,
+              "height": 18,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-05-08t09-15-46-579z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-05-08t09-15-46-579z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-05-08t09-15-46-579z/font_19x18.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-05-08T09:15:46.579Z"
+            },
+            {
               "id": "bookerly-light-2026-05-18t02-54-30-671z",
               "width": 6,
               "height": 10,
@@ -6865,6 +7011,18 @@
                 "name": "NotJimCarrey"
               },
               "timestamp": "2026-03-07T05:56:49.912Z"
+            },
+            {
+              "id": "bookerly-regular-2026-05-08t09-13-44-565z",
+              "width": 20,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2026-05-08t09-13-44-565z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2026-05-08t09-13-44-565z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2026-05-08t09-13-44-565z/font_20x19.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-05-08T09:13:44.566Z"
             },
             {
               "id": "bookerly-regular-2026-06-20t22-15-50-321z",
@@ -7794,6 +7952,40 @@
                 "name": "Dave L."
               },
               "timestamp": "2026-03-21T01:49:20.279Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Forgetica",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "forgetica-regular-2026-05-11t00-10-40-210z",
+              "width": 28,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-10-40-210z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-10-40-210z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-10-40-210z/font_28x28.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-05-11T00:10:40.210Z"
+            },
+            {
+              "id": "forgetica-regular-2026-05-11t00-14-16-391z",
+              "width": 28,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-14-16-391z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-14-16-391z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/forgetica-regular-2026-05-11t00-14-16-391z/font_28x28.bin",
+              "submitter": {
+                "name": "Anonymus"
+              },
+              "timestamp": "2026-05-11T00:14:16.391Z"
             }
           ]
         }
@@ -10309,6 +10501,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-02-07T01:42:29.056Z"
+            },
+            {
+              "id": "noto-serif-regular-2026-05-12t17-32-25-486z",
+              "width": 37,
+              "height": 34,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-serif-regular-2026-05-12t17-32-25-486z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-serif-regular-2026-05-12t17-32-25-486z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-serif-regular-2026-05-12t17-32-25-486z/font_37x34.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-05-12T17:32:25.486Z"
             }
           ]
         }
