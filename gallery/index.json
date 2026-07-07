@@ -4636,6 +4636,21 @@
       "height": 27
     },
     {
+      "id": "space-grotesk-regular-2026-05-27t03-54-31-350z",
+      "family": "Space Grotesk",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-grotesk-regular-2026-05-27t03-54-31-350z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-grotesk-regular-2026-05-27t03-54-31-350z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-grotesk-regular-2026-05-27t03-54-31-350z/font_24x28.bin",
+      "submitter": {
+        "name": "SpaceGrotesk-Regular"
+      },
+      "timestamp": "2026-05-27T03:54:31.350Z",
+      "width": 24,
+      "height": 28
+    },
+    {
       "id": "space-mono-bold-2025-12-03t07-33-21-935z",
       "family": "Space Mono",
       "style": "Bold",
@@ -10730,6 +10745,28 @@
                 "name": "Victor"
               },
               "timestamp": "2026-02-06T02:43:52.697Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Space Grotesk",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "space-grotesk-regular-2026-05-27t03-54-31-350z",
+              "width": 24,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-grotesk-regular-2026-05-27t03-54-31-350z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-grotesk-regular-2026-05-27t03-54-31-350z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-grotesk-regular-2026-05-27t03-54-31-350z/font_24x28.bin",
+              "submitter": {
+                "name": "SpaceGrotesk-Regular"
+              },
+              "timestamp": "2026-05-27T03:54:31.350Z"
             }
           ]
         }
