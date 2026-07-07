@@ -1321,6 +1321,21 @@
       "height": 38
     },
     {
+      "id": "crimson-text-semibold-2026-05-24t19-49-07-826z",
+      "family": "Crimson Text",
+      "style": "SemiBold",
+      "preview_text": "“In the post-King era of horror fiction, we find Anne Rice, whose sulkily erotic reading of Stoker finally brings the potent S&M aspect of the vampire text into overt focus, and Clive Barker, whose postmodern splatter-prose often overlays a disturbingly genuine insight into the nature of human sexual dependence. Rice and Barker have both used horror, to some extent, as an exploratory probe, a conscious technique owing more to modern science fiction than to the pre-Freudian nightmares of Stoker o",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-semibold-2026-05-24t19-49-07-826z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-semibold-2026-05-24t19-49-07-826z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-semibold-2026-05-24t19-49-07-826z/font_36x34.bin",
+      "submitter": {
+        "name": "Benoit"
+      },
+      "timestamp": "2026-05-24T19:49:07.827Z",
+      "width": 36,
+      "height": 34
+    },
+    {
       "id": "cyberpunkwaifus-medium-2025-11-17t11-16-35-842z",
       "family": "CyberpunkWaifus",
       "style": "Medium",
@@ -4561,6 +4576,21 @@
       "height": 32
     },
     {
+      "id": "saira-condensed-medium-2026-05-24t19-17-15-191z",
+      "family": "Saira Condensed",
+      "style": "Medium",
+      "preview_text": "“In the post-King era of horror fiction, we find Anne Rice, whose sulkily erotic reading of Stoker finally brings the potent S&M aspect of the vampire text into overt focus, and Clive Barker, whose postmodern splatter-prose often overlays a disturbingly genuine insight into the nature of human sexual dependence. Rice and Barker have both used horror, to some extent, as an exploratory probe, a conscious technique owing more to modern science fiction than to the pre-Freudian nightmares of Stoker o",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-medium-2026-05-24t19-17-15-191z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-medium-2026-05-24t19-17-15-191z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-medium-2026-05-24t19-17-15-191z/font_23x37.bin",
+      "submitter": {
+        "name": "Benoit"
+      },
+      "timestamp": "2026-05-24T19:17:15.191Z",
+      "width": 23,
+      "height": 37
+    },
+    {
       "id": "saira-condensed-regular-2026-05-24t20-04-25-800z",
       "family": "Saira Condensed",
       "style": "Regular",
@@ -6753,6 +6783,23 @@
                 "name": "Benoit"
               },
               "timestamp": "2026-05-24T19:55:42.068Z"
+            }
+          ]
+        },
+        {
+          "style": "SemiBold",
+          "sizes": [
+            {
+              "id": "crimson-text-semibold-2026-05-24t19-49-07-826z",
+              "width": 36,
+              "height": 34,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-semibold-2026-05-24t19-49-07-826z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-semibold-2026-05-24t19-49-07-826z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-semibold-2026-05-24t19-49-07-826z/font_36x34.bin",
+              "submitter": {
+                "name": "Benoit"
+              },
+              "timestamp": "2026-05-24T19:49:07.827Z"
             }
           ]
         }
@@ -10718,6 +10765,23 @@
     {
       "family": "Saira Condensed",
       "types": [
+        {
+          "style": "Medium",
+          "sizes": [
+            {
+              "id": "saira-condensed-medium-2026-05-24t19-17-15-191z",
+              "width": 23,
+              "height": 37,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-medium-2026-05-24t19-17-15-191z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-medium-2026-05-24t19-17-15-191z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-medium-2026-05-24t19-17-15-191z/font_23x37.bin",
+              "submitter": {
+                "name": "Benoit"
+              },
+              "timestamp": "2026-05-24T19:17:15.191Z"
+            }
+          ]
+        },
         {
           "style": "Regular",
           "sizes": [
