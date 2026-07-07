@@ -1306,6 +1306,21 @@
       "height": 17
     },
     {
+      "id": "crimson-text-regular-2026-05-24t19-55-42-068z",
+      "family": "Crimson Text",
+      "style": "Regular",
+      "preview_text": "“In the post-King era of horror fiction, we find Anne Rice, whose sulkily erotic reading of Stoker finally brings the potent S&M aspect of the vampire text into overt focus, and Clive Barker, whose postmodern splatter-prose often overlays a disturbingly genuine insight into the nature of human sexual dependence. Rice and Barker have both used horror, to some extent, as an exploratory probe, a conscious technique owing more to modern science fiction than to the pre-Freudian nightmares of Stoker o",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-regular-2026-05-24t19-55-42-068z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-regular-2026-05-24t19-55-42-068z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-regular-2026-05-24t19-55-42-068z/font_40x38.bin",
+      "submitter": {
+        "name": "Benoit"
+      },
+      "timestamp": "2026-05-24T19:55:42.068Z",
+      "width": 40,
+      "height": 38
+    },
+    {
       "id": "cyberpunkwaifus-medium-2025-11-17t11-16-35-842z",
       "family": "CyberpunkWaifus",
       "style": "Medium",
@@ -6716,6 +6731,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-02-05T21:06:12.153Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Crimson Text",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "crimson-text-regular-2026-05-24t19-55-42-068z",
+              "width": 40,
+              "height": 38,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-regular-2026-05-24t19-55-42-068z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-regular-2026-05-24t19-55-42-068z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/crimson-text-regular-2026-05-24t19-55-42-068z/font_40x38.bin",
+              "submitter": {
+                "name": "Benoit"
+              },
+              "timestamp": "2026-05-24T19:55:42.068Z"
             }
           ]
         }
