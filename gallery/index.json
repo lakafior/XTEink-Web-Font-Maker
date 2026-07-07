@@ -4546,6 +4546,21 @@
       "height": 32
     },
     {
+      "id": "saira-condensed-regular-2026-05-24t20-04-25-800z",
+      "family": "Saira Condensed",
+      "style": "Regular",
+      "preview_text": "“In the post-King era of horror fiction, we find Anne Rice, whose sulkily erotic reading of Stoker finally brings the potent S&M aspect of the vampire text into overt focus, and Clive Barker, whose postmodern splatter-prose often overlays a disturbingly genuine insight into the nature of human sexual dependence. Rice and Barker have both used horror, to some extent, as an exploratory probe, a conscious technique owing more to modern science fiction than to the pre-Freudian nightmares of Stoker o",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-regular-2026-05-24t20-04-25-800z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-regular-2026-05-24t20-04-25-800z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-regular-2026-05-24t20-04-25-800z/font_28x42.bin",
+      "submitter": {
+        "name": "Benoit"
+      },
+      "timestamp": "2026-05-24T20:04:25.800Z",
+      "width": 28,
+      "height": 42
+    },
+    {
       "id": "salma-pro-medium-narrow-2025-11-14t14-32-37-601z",
       "family": "Salma Pro",
       "style": "Medium Narrow",
@@ -4589,6 +4604,21 @@
       "timestamp": "2026-04-22T09:43:51.056Z",
       "width": 17,
       "height": 26
+    },
+    {
+      "id": "sofia-sans-condensed-regular-2026-05-24t20-07-03-620z",
+      "family": "Sofia Sans Condensed",
+      "style": "Regular",
+      "preview_text": "“In the post-King era of horror fiction, we find Anne Rice, whose sulkily erotic reading of Stoker finally brings the potent S&M aspect of the vampire text into overt focus, and Clive Barker, whose postmodern splatter-prose often overlays a disturbingly genuine insight into the nature of human sexual dependence. Rice and Barker have both used horror, to some extent, as an exploratory probe, a conscious technique owing more to modern science fiction than to the pre-Freudian nightmares of Stoker o",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sofia-sans-condensed-regular-2026-05-24t20-07-03-620z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sofia-sans-condensed-regular-2026-05-24t20-07-03-620z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sofia-sans-condensed-regular-2026-05-24t20-07-03-620z/font_27x40.bin",
+      "submitter": {
+        "name": "Benoit"
+      },
+      "timestamp": "2026-05-24T20:07:03.620Z",
+      "width": 27,
+      "height": 40
     },
     {
       "id": "source-code-pro-regular-2026-02-15t22-06-13-160z",
@@ -5009,6 +5039,21 @@
       "timestamp": "2026-04-16T02:37:02.198Z",
       "width": 15,
       "height": 26
+    },
+    {
+      "id": "victor-mono-italic-2026-05-24t20-08-12-754z",
+      "family": "Victor Mono",
+      "style": "Italic",
+      "preview_text": "“In the post-King era of horror fiction, we find Anne Rice, whose sulkily erotic reading of Stoker finally brings the potent S&M aspect of the vampire text into overt focus, and Clive Barker, whose postmodern splatter-prose often overlays a disturbingly genuine insight into the nature of human sexual dependence. Rice and Barker have both used horror, to some extent, as an exploratory probe, a conscious technique owing more to modern science fiction than to the pre-Freudian nightmares of Stoker o",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-italic-2026-05-24t20-08-12-754z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-italic-2026-05-24t20-08-12-754z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-italic-2026-05-24t20-08-12-754z/font_29x48.bin",
+      "submitter": {
+        "name": "Benoit"
+      },
+      "timestamp": "2026-05-24T20:08:12.754Z",
+      "width": 29,
+      "height": 48
     },
     {
       "id": "victor-mono-regular-2026-05-24t20-09-18-811z",
@@ -10634,6 +10679,28 @@
       ]
     },
     {
+      "family": "Saira Condensed",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "saira-condensed-regular-2026-05-24t20-04-25-800z",
+              "width": 28,
+              "height": 42,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-regular-2026-05-24t20-04-25-800z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-regular-2026-05-24t20-04-25-800z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/saira-condensed-regular-2026-05-24t20-04-25-800z/font_28x42.bin",
+              "submitter": {
+                "name": "Benoit"
+              },
+              "timestamp": "2026-05-24T20:04:25.800Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Salma Pro",
       "types": [
         {
@@ -10694,6 +10761,28 @@
                 "name": "brohan"
               },
               "timestamp": "2026-04-22T09:43:51.056Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Sofia Sans Condensed",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "sofia-sans-condensed-regular-2026-05-24t20-07-03-620z",
+              "width": 27,
+              "height": 40,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sofia-sans-condensed-regular-2026-05-24t20-07-03-620z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sofia-sans-condensed-regular-2026-05-24t20-07-03-620z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/sofia-sans-condensed-regular-2026-05-24t20-07-03-620z/font_27x40.bin",
+              "submitter": {
+                "name": "Benoit"
+              },
+              "timestamp": "2026-05-24T20:07:03.620Z"
             }
           ]
         }
@@ -11213,6 +11302,23 @@
     {
       "family": "Victor Mono",
       "types": [
+        {
+          "style": "Italic",
+          "sizes": [
+            {
+              "id": "victor-mono-italic-2026-05-24t20-08-12-754z",
+              "width": 29,
+              "height": 48,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-italic-2026-05-24t20-08-12-754z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-italic-2026-05-24t20-08-12-754z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-italic-2026-05-24t20-08-12-754z/font_29x48.bin",
+              "submitter": {
+                "name": "Benoit"
+              },
+              "timestamp": "2026-05-24T20:08:12.754Z"
+            }
+          ]
+        },
         {
           "style": "Regular",
           "sizes": [
