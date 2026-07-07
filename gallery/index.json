@@ -5011,6 +5011,21 @@
       "height": 26
     },
     {
+      "id": "victor-mono-regular-2026-05-24t20-09-18-811z",
+      "family": "Victor Mono",
+      "style": "Regular",
+      "preview_text": "“In the post-King era of horror fiction, we find Anne Rice, whose sulkily erotic reading of Stoker finally brings the potent S&M aspect of the vampire text into overt focus, and Clive Barker, whose postmodern splatter-prose often overlays a disturbingly genuine insight into the nature of human sexual dependence. Rice and Barker have both used horror, to some extent, as an exploratory probe, a conscious technique owing more to modern science fiction than to the pre-Freudian nightmares of Stoker o",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-regular-2026-05-24t20-09-18-811z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-regular-2026-05-24t20-09-18-811z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-regular-2026-05-24t20-09-18-811z/font_24x48.bin",
+      "submitter": {
+        "name": "Benoit"
+      },
+      "timestamp": "2026-05-24T20:09:18.811Z",
+      "width": 24,
+      "height": 48
+    },
+    {
       "id": "village-plain-2026-02-04t23-33-21-145z",
       "family": "Village",
       "style": "Plain",
@@ -11190,6 +11205,28 @@
                 "name": "DL 67"
               },
               "timestamp": "2026-04-16T02:37:02.198Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Victor Mono",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "victor-mono-regular-2026-05-24t20-09-18-811z",
+              "width": 24,
+              "height": 48,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-regular-2026-05-24t20-09-18-811z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-regular-2026-05-24t20-09-18-811z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/victor-mono-regular-2026-05-24t20-09-18-811z/font_24x48.bin",
+              "submitter": {
+                "name": "Benoit"
+              },
+              "timestamp": "2026-05-24T20:09:18.811Z"
             }
           ]
         }
